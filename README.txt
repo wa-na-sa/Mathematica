@@ -1,1 +1,2 @@
-һЩMathematicaСʵ����
+一些Mathematica小实例，使用11.1的版本编写。
+有些是重复造轮子的过程，目的是提升对Mathematica的了解。
