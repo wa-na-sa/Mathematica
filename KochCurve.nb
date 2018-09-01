@@ -1,0 +1,1717 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     94420,       1709]
+NotebookOptionsPosition[     93489,       1678]
+NotebookOutlinePosition[     93846,       1694]
+CellTagsIndexPosition[     93803,       1691]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Graphics", "@", 
+  RowBox[{"KochCurve", "[", "4", "]"}]}]], "Input",
+ CellChangeTimes->{{3.744692428199087*^9, 
+  3.7446924376124887`*^9}},ExpressionUUID->"06930918-12e5-4a23-a340-\
+735e19f0c784"],
+
+Cell[BoxData[
+ GraphicsBox[LineBox[CompressedData["
+1:eJxdVg9I3VUUdgWOoDVZIKyJ1iLbqAhWA4O5a5YgLJBGusWG0UhYLbYZCzaE
+kdvEshht7FG5GCqZuGY513K1dM90s57m/J+brqnPpz7/vEkjLWjQ+91zvu/H
+7/148Pj47jn3nHO/e859bNe+rQX3xcXFLVsWF+f8x36j4cH/6rM/MsC7n61s
+OrZ40myeOjt6NFRihP8ihq8i/urBTbfKU77mevCCfWpfS5zUXhj9nTP7nvlg
+eu27FWa7dfCdMcqLfQPXB/x9df++ed5kePw3xOz/A3Fm0QPzT3zfGBP/j+ST
+7f4/E/+00Ty9Nb7ZpOv6JOWxv8R3RXmfse4/85u9nviv6PrqGPtqA/8PVQ4M
+TeR/Q17yr6c9MPznlfne6lt3QfNv0f3qNf9fiBsnS7MC/lauBy/7XzTxZ/b+
+vvLjNuJc+101T77s3/l81SUj9btGXurXTny3dW3BaPia2ab+wSNeqe9vxHb7
+VQGuP2wTDJCX/DuJo8GdKq7pMCs99elUPVTTPkMx/O/X+nt5H+2B4R/6SVbe
+e/5dxLb83V3Uj5zPdfJyPt3Ejxc4FejmevAvevTbQz29ZwPsof5XH3Qi6I3R
+f6/ZpLjFMT/RG6P/Xu4v599HnG8PqJ/xyPn3k8+z5z9AfK8+OxrCAPWfqzzq
+J/oYpP5fsQEMUv/goXfYpyuGf+gfPM4f9sDwDz2L/gapd9HfH8QzjvxWD3E9
+eOj3xIaFA3sODxG/cDyYdjw4RP2Dl/gu0x4Y/hfvzbzmW9NMXuL1Mz5gxI/1
+3vz8Mfn7WZ/gcFlqUaCFvNyfVtoDw39HWkXVU6Vt5EU/V2kPDP8XfBeTR15q
+Jy/5/0p7YPg//Veg/JO4APMDj/yBUR+sBy/3uSOmvh2s/5Gc0cT0pk7tHzfI
+y/2+Sfyho+66G6Zc/YNP1f3l/rs4NXr58jOHuV7u/zB5uf8jjL/NpjfC9UnK
+Y/89sgHxwze3RCt0i/GDl/Puoj0w/L9z7u+T84euk5fz76Y98Cr1X3usZHnO
+mh6dH3+Sl/bi4vPO8W68zfXgRU892r9uE+vUNynPfZpVc6jX9DvtZcMoeelf
+Lq7ZYRVA/+Cxv/Q/Fy/aBMa4XvrfGHnpfy627enUGOsDfknr16H2wEvq/6jW
+Hzz0Bntg+Ic+C5XH+T9i++84ccQpX/64+VLXS/91+betAF2cHr09ieuD9A8e
++yc48tsRJJ5IsxeA8V+y/dvl37AXaIJ6s+Z3g9QneOh5uU3QxVY+TRNc/61z
+vAsuv83e/xDjP2IPOGQatD/kKb9Z+wfs0U/gH/0HPPpTrtrnKS5W/+Oe/hbS
+/u2nPfoh/C9p/4zX/MAj//2KUZ9/dL23fpf1fRQ0CYqDWv912v/BZ+h8yFd7
+o7hM/W/X+ZLv2b+e8QEj/td1fZ3mBx75A6M+CZ75GDKZOj9RH7x/4B/vHy/v
+oz3mNfzj/YDz9c5/F3fbBEMmW9fLfJgkL/PBxY8mrr8/p3FS3zslBjzeOzI/
+Jvkesu0vacoUavynUxwHU5qvT+fHFO3t9S0GX0Ie+8v8mSZudqbDlmnGL/PH
+5WX+uHiFk15imO8l8Hh/yXwKMx47XorCfL95+Wra4/0K/yv0fMHj/QJ7YPjP
+Vf3I/AvHvK9niJ3il2bN8L0NHu8dW56DM9Rz7Vnnm+H7R8aPy9v2lzlL/KoV
++Cz1Dx76lfnq4go7nmep/wN2wM2Rl/nnYju+zBz1Dx76f1/tof9K9Q/9e3kf
+7aF/+Pe+/+d4/jKfXfy5XADqR+bzPHmZ/y6ess/veeofPPQi8ztC/dvjT4tQ
+/7usQCPUv8zvCO2t+ZkI9Q8e+8v8v0Ns5b/7DuOX+e/y8i0Q/w8RsM7w
+   "]]]], "Output",
+ CellChangeTimes->{
+  3.7446924382342076`*^9},ExpressionUUID->"15737f16-1595-456a-a115-\
+b8d01c7c0e35"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "@", 
+  RowBox[{"Line", "@", 
+   RowBox[{"AnglePath", "@", 
+    RowBox[{"ReplacePart", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"Nest", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Flatten", "[", 
+           RowBox[{
+            RowBox[{
+             RowBox[{"{", 
+              RowBox[{"#", ",", "1", ",", 
+               RowBox[{"-", "2"}], ",", "1"}], "}"}], "&"}], "/@", "#"}], 
+           "]"}], "&"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"1", ",", "1", ",", 
+           RowBox[{"-", "2"}], ",", "1"}], "}"}], ",", "3"}], "]"}], "60", 
+       "Degree"}], ",", 
+      RowBox[{"1", "\[Rule]", "0"}]}], "]"}]}]}]}]], "Input",
+ CellChangeTimes->{{3.744692374172799*^9, 3.744692390872149*^9}, {
+  3.744761670741516*^9, 3.744761677168541*^9}, {3.7447617318531947`*^9, 
+  3.7447617369032125`*^9}},ExpressionUUID->"98deeba6-2f14-479d-88b8-\
+37e11781cd55"],
+
+Cell[BoxData[
+ GraphicsBox[
+  LineBox[NCache[{{0, 0}, {1, 0}, {
+     Rational[3, 2], Rational[1, 2] 3^Rational[1, 2]}, {2, 0}, {3, 0}, {
+     Rational[7, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+     3, 3^Rational[1, 2]}, {4, 3^Rational[1, 2]}, {
+     Rational[9, 2], Rational[3, 2] 3^Rational[1, 2]}, {
+     5, 3^Rational[1, 2]}, {6, 3^Rational[1, 2]}, {
+     Rational[11, 2], Rational[1, 2] 3^Rational[1, 2]}, {6, 0}, {7, 0}, {
+     Rational[15, 2], Rational[1, 2] 3^Rational[1, 2]}, {8, 0}, {9, 0}, {
+     Rational[19, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+     9, 3^Rational[1, 2]}, {10, 3^Rational[1, 2]}, {
+     Rational[21, 2], Rational[3, 2] 3^Rational[1, 2]}, {
+     10, 2 3^Rational[1, 2]}, {9, 2 3^Rational[1, 2]}, {
+     Rational[19, 2], Rational[5, 2] 3^Rational[1, 2]}, {
+     9, 3 3^Rational[1, 2]}, {10, 3 3^Rational[1, 2]}, {
+     Rational[21, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     11, 3 3^Rational[1, 2]}, {12, 3 3^Rational[1, 2]}, {
+     Rational[25, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     12, 4 3^Rational[1, 2]}, {13, 4 3^Rational[1, 2]}, {
+     Rational[27, 2], Rational[9, 2] 3^Rational[1, 2]}, {
+     14, 4 3^Rational[1, 2]}, {15, 4 3^Rational[1, 2]}, {
+     Rational[29, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     15, 3 3^Rational[1, 2]}, {16, 3 3^Rational[1, 2]}, {
+     Rational[33, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     17, 3 3^Rational[1, 2]}, {18, 3 3^Rational[1, 2]}, {
+     Rational[35, 2], Rational[5, 2] 3^Rational[1, 2]}, {
+     18, 2 3^Rational[1, 2]}, {17, 2 3^Rational[1, 2]}, {
+     Rational[33, 2], Rational[3, 2] 3^Rational[1, 2]}, {
+     17, 3^Rational[1, 2]}, {18, 3^Rational[1, 2]}, {
+     Rational[35, 2], Rational[1, 2] 3^Rational[1, 2]}, {18, 0}, {19, 0}, {
+     Rational[39, 2], Rational[1, 2] 3^Rational[1, 2]}, {20, 0}, {21, 0}, {
+     Rational[43, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+     21, 3^Rational[1, 2]}, {22, 3^Rational[1, 2]}, {
+     Rational[45, 2], Rational[3, 2] 3^Rational[1, 2]}, {
+     23, 3^Rational[1, 2]}, {24, 3^Rational[1, 2]}, {
+     Rational[47, 2], Rational[1, 2] 3^Rational[1, 2]}, {24, 0}, {25, 0}, {
+     Rational[51, 2], Rational[1, 2] 3^Rational[1, 2]}, {26, 0}, {27, 0}, {
+     Rational[55, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+     27, 3^Rational[1, 2]}, {28, 3^Rational[1, 2]}, {
+     Rational[57, 2], Rational[3, 2] 3^Rational[1, 2]}, {
+     28, 2 3^Rational[1, 2]}, {27, 2 3^Rational[1, 2]}, {
+     Rational[55, 2], Rational[5, 2] 3^Rational[1, 2]}, {
+     27, 3 3^Rational[1, 2]}, {28, 3 3^Rational[1, 2]}, {
+     Rational[57, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     29, 3 3^Rational[1, 2]}, {30, 3 3^Rational[1, 2]}, {
+     Rational[61, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     30, 4 3^Rational[1, 2]}, {31, 4 3^Rational[1, 2]}, {
+     Rational[63, 2], Rational[9, 2] 3^Rational[1, 2]}, {
+     31, 5 3^Rational[1, 2]}, {30, 5 3^Rational[1, 2]}, {
+     Rational[61, 2], Rational[11, 2] 3^Rational[1, 2]}, {
+     30, 6 3^Rational[1, 2]}, {29, 6 3^Rational[1, 2]}, {
+     Rational[57, 2], Rational[11, 2] 3^Rational[1, 2]}, {
+     28, 6 3^Rational[1, 2]}, {27, 6 3^Rational[1, 2]}, {
+     Rational[55, 2], Rational[13, 2] 3^Rational[1, 2]}, {
+     27, 7 3^Rational[1, 2]}, {28, 7 3^Rational[1, 2]}, {
+     Rational[57, 2], Rational[15, 2] 3^Rational[1, 2]}, {
+     28, 8 3^Rational[1, 2]}, {27, 8 3^Rational[1, 2]}, {
+     Rational[55, 2], Rational[17, 2] 3^Rational[1, 2]}, {
+     27, 9 3^Rational[1, 2]}, {28, 9 3^Rational[1, 2]}, {
+     Rational[57, 2], Rational[19, 2] 3^Rational[1, 2]}, {
+     29, 9 3^Rational[1, 2]}, {30, 9 3^Rational[1, 2]}, {
+     Rational[61, 2], Rational[19, 2] 3^Rational[1, 2]}, {
+     30, 10 3^Rational[1, 2]}, {31, 10 3^Rational[1, 2]}, {
+     Rational[63, 2], Rational[21, 2] 3^Rational[1, 2]}, {
+     32, 10 3^Rational[1, 2]}, {33, 10 3^Rational[1, 2]}, {
+     Rational[65, 2], Rational[19, 2] 3^Rational[1, 2]}, {
+     33, 9 3^Rational[1, 2]}, {34, 9 3^Rational[1, 2]}, {
+     Rational[69, 2], Rational[19, 2] 3^Rational[1, 2]}, {
+     35, 9 3^Rational[1, 2]}, {36, 9 3^Rational[1, 2]}, {
+     Rational[73, 2], Rational[19, 2] 3^Rational[1, 2]}, {
+     36, 10 3^Rational[1, 2]}, {37, 10 3^Rational[1, 2]}, {
+     Rational[75, 2], Rational[21, 2] 3^Rational[1, 2]}, {
+     37, 11 3^Rational[1, 2]}, {36, 11 3^Rational[1, 2]}, {
+     Rational[73, 2], Rational[23, 2] 3^Rational[1, 2]}, {
+     36, 12 3^Rational[1, 2]}, {37, 12 3^Rational[1, 2]}, {
+     Rational[75, 2], Rational[25, 2] 3^Rational[1, 2]}, {
+     38, 12 3^Rational[1, 2]}, {39, 12 3^Rational[1, 2]}, {
+     Rational[79, 2], Rational[25, 2] 3^Rational[1, 2]}, {
+     39, 13 3^Rational[1, 2]}, {40, 13 3^Rational[1, 2]}, {
+     Rational[81, 2], Rational[27, 2] 3^Rational[1, 2]}, {
+     41, 13 3^Rational[1, 2]}, {42, 13 3^Rational[1, 2]}, {
+     Rational[83, 2], Rational[25, 2] 3^Rational[1, 2]}, {
+     42, 12 3^Rational[1, 2]}, {43, 12 3^Rational[1, 2]}, {
+     Rational[87, 2], Rational[25, 2] 3^Rational[1, 2]}, {
+     44, 12 3^Rational[1, 2]}, {45, 12 3^Rational[1, 2]}, {
+     Rational[89, 2], Rational[23, 2] 3^Rational[1, 2]}, {
+     45, 11 3^Rational[1, 2]}, {44, 11 3^Rational[1, 2]}, {
+     Rational[87, 2], Rational[21, 2] 3^Rational[1, 2]}, {
+     44, 10 3^Rational[1, 2]}, {45, 10 3^Rational[1, 2]}, {
+     Rational[89, 2], Rational[19, 2] 3^Rational[1, 2]}, {
+     45, 9 3^Rational[1, 2]}, {46, 9 3^Rational[1, 2]}, {
+     Rational[93, 2], Rational[19, 2] 3^Rational[1, 2]}, {
+     47, 9 3^Rational[1, 2]}, {48, 9 3^Rational[1, 2]}, {
+     Rational[97, 2], Rational[19, 2] 3^Rational[1, 2]}, {
+     48, 10 3^Rational[1, 2]}, {49, 10 3^Rational[1, 2]}, {
+     Rational[99, 2], Rational[21, 2] 3^Rational[1, 2]}, {
+     50, 10 3^Rational[1, 2]}, {51, 10 3^Rational[1, 2]}, {
+     Rational[101, 2], Rational[19, 2] 3^Rational[1, 2]}, {
+     51, 9 3^Rational[1, 2]}, {52, 9 3^Rational[1, 2]}, {
+     Rational[105, 2], Rational[19, 2] 3^Rational[1, 2]}, {
+     53, 9 3^Rational[1, 2]}, {54, 9 3^Rational[1, 2]}, {
+     Rational[107, 2], Rational[17, 2] 3^Rational[1, 2]}, {
+     54, 8 3^Rational[1, 2]}, {53, 8 3^Rational[1, 2]}, {
+     Rational[105, 2], Rational[15, 2] 3^Rational[1, 2]}, {
+     53, 7 3^Rational[1, 2]}, {54, 7 3^Rational[1, 2]}, {
+     Rational[107, 2], Rational[13, 2] 3^Rational[1, 2]}, {
+     54, 6 3^Rational[1, 2]}, {53, 6 3^Rational[1, 2]}, {
+     Rational[105, 2], Rational[11, 2] 3^Rational[1, 2]}, {
+     52, 6 3^Rational[1, 2]}, {51, 6 3^Rational[1, 2]}, {
+     Rational[101, 2], Rational[11, 2] 3^Rational[1, 2]}, {
+     51, 5 3^Rational[1, 2]}, {50, 5 3^Rational[1, 2]}, {
+     Rational[99, 2], Rational[9, 2] 3^Rational[1, 2]}, {
+     50, 4 3^Rational[1, 2]}, {51, 4 3^Rational[1, 2]}, {
+     Rational[101, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     51, 3 3^Rational[1, 2]}, {52, 3 3^Rational[1, 2]}, {
+     Rational[105, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     53, 3 3^Rational[1, 2]}, {54, 3 3^Rational[1, 2]}, {
+     Rational[107, 2], Rational[5, 2] 3^Rational[1, 2]}, {
+     54, 2 3^Rational[1, 2]}, {53, 2 3^Rational[1, 2]}, {
+     Rational[105, 2], Rational[3, 2] 3^Rational[1, 2]}, {
+     53, 3^Rational[1, 2]}, {54, 3^Rational[1, 2]}, {
+     Rational[107, 2], Rational[1, 2] 3^Rational[1, 2]}, {54, 0}, {55, 0}, {
+     Rational[111, 2], Rational[1, 2] 3^Rational[1, 2]}, {56, 0}, {57, 0}, {
+     Rational[115, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+     57, 3^Rational[1, 2]}, {58, 3^Rational[1, 2]}, {
+     Rational[117, 2], Rational[3, 2] 3^Rational[1, 2]}, {
+     59, 3^Rational[1, 2]}, {60, 3^Rational[1, 2]}, {
+     Rational[119, 2], Rational[1, 2] 3^Rational[1, 2]}, {60, 0}, {61, 0}, {
+     Rational[123, 2], Rational[1, 2] 3^Rational[1, 2]}, {62, 0}, {63, 0}, {
+     Rational[127, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+     63, 3^Rational[1, 2]}, {64, 3^Rational[1, 2]}, {
+     Rational[129, 2], Rational[3, 2] 3^Rational[1, 2]}, {
+     64, 2 3^Rational[1, 2]}, {63, 2 3^Rational[1, 2]}, {
+     Rational[127, 2], Rational[5, 2] 3^Rational[1, 2]}, {
+     63, 3 3^Rational[1, 2]}, {64, 3 3^Rational[1, 2]}, {
+     Rational[129, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     65, 3 3^Rational[1, 2]}, {66, 3 3^Rational[1, 2]}, {
+     Rational[133, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     66, 4 3^Rational[1, 2]}, {67, 4 3^Rational[1, 2]}, {
+     Rational[135, 2], Rational[9, 2] 3^Rational[1, 2]}, {
+     68, 4 3^Rational[1, 2]}, {69, 4 3^Rational[1, 2]}, {
+     Rational[137, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     69, 3 3^Rational[1, 2]}, {70, 3 3^Rational[1, 2]}, {
+     Rational[141, 2], Rational[7, 2] 3^Rational[1, 2]}, {
+     71, 3 3^Rational[1, 2]}, {72, 3 3^Rational[1, 2]}, {
+     Rational[143, 2], Rational[5, 2] 3^Rational[1, 2]}, {
+     72, 2 3^Rational[1, 2]}, {71, 2 3^Rational[1, 2]}, {
+     Rational[141, 2], Rational[3, 2] 3^Rational[1, 2]}, {
+     71, 3^Rational[1, 2]}, {72, 3^Rational[1, 2]}, {
+     Rational[143, 2], Rational[1, 2] 3^Rational[1, 2]}, {72, 0}, {73, 0}, {
+     Rational[147, 2], Rational[1, 2] 3^Rational[1, 2]}, {74, 0}, {75, 0}, {
+     Rational[151, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+     75, 3^Rational[1, 2]}, {76, 3^Rational[1, 2]}, {
+     Rational[153, 2], Rational[3, 2] 3^Rational[1, 2]}, {
+     77, 3^Rational[1, 2]}, {78, 3^Rational[1, 2]}, {
+     Rational[155, 2], Rational[1, 2] 3^Rational[1, 2]}, {78, 0}, {79, 0}, {
+     Rational[159, 2], Rational[1, 2] 3^Rational[1, 2]}, {80, 0}, {81, 0}}, {{
+     0, 0}, {1, 0}, {1.5, 0.8660254037844386}, {2, 0}, {3, 0}, {3.5, 
+     0.8660254037844386}, {3, 1.7320508075688772`}, {
+     4, 1.7320508075688772`}, {4.5, 2.598076211353316}, {
+     5, 1.7320508075688772`}, {6, 1.7320508075688772`}, {5.5, 
+     0.8660254037844386}, {6, 0}, {7, 0}, {7.5, 0.8660254037844386}, {8, 0}, {
+     9, 0}, {9.5, 0.8660254037844386}, {9, 1.7320508075688772`}, {
+     10, 1.7320508075688772`}, {10.5, 2.598076211353316}, {
+     10, 3.4641016151377544`}, {9, 3.4641016151377544`}, {9.5, 
+     4.330127018922193}, {9, 5.196152422706632}, {10, 5.196152422706632}, {
+     10.5, 6.06217782649107}, {11, 5.196152422706632}, {
+     12, 5.196152422706632}, {12.5, 6.06217782649107}, {
+     12, 6.928203230275509}, {13, 6.928203230275509}, {13.5, 
+     7.794228634059947}, {14, 6.928203230275509}, {15, 6.928203230275509}, {
+     14.5, 6.06217782649107}, {15, 5.196152422706632}, {
+     16, 5.196152422706632}, {16.5, 6.06217782649107}, {
+     17, 5.196152422706632}, {18, 5.196152422706632}, {17.5, 
+     4.330127018922193}, {18, 3.4641016151377544`}, {
+     17, 3.4641016151377544`}, {16.5, 2.598076211353316}, {
+     17, 1.7320508075688772`}, {18, 1.7320508075688772`}, {17.5, 
+     0.8660254037844386}, {18, 0}, {19, 0}, {19.5, 0.8660254037844386}, {20, 
+     0}, {21, 0}, {21.5, 0.8660254037844386}, {21, 1.7320508075688772`}, {
+     22, 1.7320508075688772`}, {22.5, 2.598076211353316}, {
+     23, 1.7320508075688772`}, {24, 1.7320508075688772`}, {23.5, 
+     0.8660254037844386}, {24, 0}, {25, 0}, {25.5, 0.8660254037844386}, {26, 
+     0}, {27, 0}, {27.5, 0.8660254037844386}, {27, 1.7320508075688772`}, {
+     28, 1.7320508075688772`}, {28.5, 2.598076211353316}, {
+     28, 3.4641016151377544`}, {27, 3.4641016151377544`}, {27.5, 
+     4.330127018922193}, {27, 5.196152422706632}, {28, 5.196152422706632}, {
+     28.5, 6.06217782649107}, {29, 5.196152422706632}, {
+     30, 5.196152422706632}, {30.5, 6.06217782649107}, {
+     30, 6.928203230275509}, {31, 6.928203230275509}, {31.5, 
+     7.794228634059947}, {31, 8.660254037844386}, {30, 8.660254037844386}, {
+     30.5, 9.526279441628825}, {30, 10.392304845413264`}, {
+     29, 10.392304845413264`}, {28.5, 9.526279441628825}, {
+     28, 10.392304845413264`}, {27, 10.392304845413264`}, {27.5, 
+     11.258330249197702`}, {27, 12.12435565298214}, {28, 12.12435565298214}, {
+     28.5, 12.990381056766578`}, {28, 13.856406460551018`}, {
+     27, 13.856406460551018`}, {27.5, 14.722431864335457`}, {
+     27, 15.588457268119894`}, {28, 15.588457268119894`}, {28.5, 
+     16.454482671904334`}, {29, 15.588457268119894`}, {
+     30, 15.588457268119894`}, {30.5, 16.454482671904334`}, {
+     30, 17.32050807568877}, {31, 17.32050807568877}, {31.5, 
+     18.186533479473212`}, {32, 17.32050807568877}, {33, 17.32050807568877}, {
+     32.5, 16.454482671904334`}, {33, 15.588457268119894`}, {
+     34, 15.588457268119894`}, {34.5, 16.454482671904334`}, {
+     35, 15.588457268119894`}, {36, 15.588457268119894`}, {36.5, 
+     16.454482671904334`}, {36, 17.32050807568877}, {37, 17.32050807568877}, {
+     37.5, 18.186533479473212`}, {37, 19.05255888325765}, {
+     36, 19.05255888325765}, {36.5, 19.918584287042087`}, {
+     36, 20.784609690826528`}, {37, 20.784609690826528`}, {37.5, 
+     21.650635094610966`}, {38, 20.784609690826528`}, {
+     39, 20.784609690826528`}, {39.5, 21.650635094610966`}, {
+     39, 22.516660498395403`}, {40, 22.516660498395403`}, {40.5, 
+     23.38268590217984}, {41, 22.516660498395403`}, {
+     42, 22.516660498395403`}, {41.5, 21.650635094610966`}, {
+     42, 20.784609690826528`}, {43, 20.784609690826528`}, {43.5, 
+     21.650635094610966`}, {44, 20.784609690826528`}, {
+     45, 20.784609690826528`}, {44.5, 19.918584287042087`}, {
+     45, 19.05255888325765}, {44, 19.05255888325765}, {43.5, 
+     18.186533479473212`}, {44, 17.32050807568877}, {45, 17.32050807568877}, {
+     44.5, 16.454482671904334`}, {45, 15.588457268119894`}, {
+     46, 15.588457268119894`}, {46.5, 16.454482671904334`}, {
+     47, 15.588457268119894`}, {48, 15.588457268119894`}, {48.5, 
+     16.454482671904334`}, {48, 17.32050807568877}, {49, 17.32050807568877}, {
+     49.5, 18.186533479473212`}, {50, 17.32050807568877}, {
+     51, 17.32050807568877}, {50.5, 16.454482671904334`}, {
+     51, 15.588457268119894`}, {52, 15.588457268119894`}, {52.5, 
+     16.454482671904334`}, {53, 15.588457268119894`}, {
+     54, 15.588457268119894`}, {53.5, 14.722431864335457`}, {
+     54, 13.856406460551018`}, {53, 13.856406460551018`}, {52.5, 
+     12.990381056766578`}, {53, 12.12435565298214}, {54, 12.12435565298214}, {
+     53.5, 11.258330249197702`}, {54, 10.392304845413264`}, {
+     53, 10.392304845413264`}, {52.5, 9.526279441628825}, {
+     52, 10.392304845413264`}, {51, 10.392304845413264`}, {50.5, 
+     9.526279441628825}, {51, 8.660254037844386}, {50, 8.660254037844386}, {
+     49.5, 7.794228634059947}, {50, 6.928203230275509}, {
+     51, 6.928203230275509}, {50.5, 6.06217782649107}, {
+     51, 5.196152422706632}, {52, 5.196152422706632}, {52.5, 
+     6.06217782649107}, {53, 5.196152422706632}, {54, 5.196152422706632}, {
+     53.5, 4.330127018922193}, {54, 3.4641016151377544`}, {
+     53, 3.4641016151377544`}, {52.5, 2.598076211353316}, {
+     53, 1.7320508075688772`}, {54, 1.7320508075688772`}, {53.5, 
+     0.8660254037844386}, {54, 0}, {55, 0}, {55.5, 0.8660254037844386}, {56, 
+     0}, {57, 0}, {57.5, 0.8660254037844386}, {57, 1.7320508075688772`}, {
+     58, 1.7320508075688772`}, {58.5, 2.598076211353316}, {
+     59, 1.7320508075688772`}, {60, 1.7320508075688772`}, {59.5, 
+     0.8660254037844386}, {60, 0}, {61, 0}, {61.5, 0.8660254037844386}, {62, 
+     0}, {63, 0}, {63.5, 0.8660254037844386}, {63, 1.7320508075688772`}, {
+     64, 1.7320508075688772`}, {64.5, 2.598076211353316}, {
+     64, 3.4641016151377544`}, {63, 3.4641016151377544`}, {63.5, 
+     4.330127018922193}, {63, 5.196152422706632}, {64, 5.196152422706632}, {
+     64.5, 6.06217782649107}, {65, 5.196152422706632}, {
+     66, 5.196152422706632}, {66.5, 6.06217782649107}, {
+     66, 6.928203230275509}, {67, 6.928203230275509}, {67.5, 
+     7.794228634059947}, {68, 6.928203230275509}, {69, 6.928203230275509}, {
+     68.5, 6.06217782649107}, {69, 5.196152422706632}, {
+     70, 5.196152422706632}, {70.5, 6.06217782649107}, {
+     71, 5.196152422706632}, {72, 5.196152422706632}, {71.5, 
+     4.330127018922193}, {72, 3.4641016151377544`}, {
+     71, 3.4641016151377544`}, {70.5, 2.598076211353316}, {
+     71, 1.7320508075688772`}, {72, 1.7320508075688772`}, {71.5, 
+     0.8660254037844386}, {72, 0}, {73, 0}, {73.5, 0.8660254037844386}, {74, 
+     0}, {75, 0}, {75.5, 0.8660254037844386}, {75, 1.7320508075688772`}, {
+     76, 1.7320508075688772`}, {76.5, 2.598076211353316}, {
+     77, 1.7320508075688772`}, {78, 1.7320508075688772`}, {77.5, 
+     0.8660254037844386}, {78, 0}, {79, 0}, {79.5, 0.8660254037844386}, {80, 
+     0}, {81, 0}}]]]], "Output",
+ CellChangeTimes->{{3.7446923867634954`*^9, 3.7446923913103685`*^9}, 
+   3.744761698541457*^9, {3.7447617331466913`*^9, 
+   3.7447617375948257`*^9}},ExpressionUUID->"b93c2339-d280-4892-9eb2-\
+625d5a29ec00"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "@", 
+  RowBox[{"Line", "@", 
+   RowBox[{"AnglePath", "[", 
+    RowBox[{
+     RowBox[{"Nest", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Flatten", "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"#", ",", 
+             RowBox[{"-", "1"}], ",", "2", ",", 
+             RowBox[{"-", "1"}]}], "}"}], "&"}], "/@", "#"}], "]"}], "&"}], 
+       ",", 
+       RowBox[{"{", 
+        RowBox[{"2", ",", "2", ",", "2", ",", "2"}], "}"}], ",", "4"}], "]"}],
+      "60", "Degree"}], "]"}]}]}]], "Input",
+ CellChangeTimes->{{3.7446923942053175`*^9, 3.744692394415739*^9}, {
+  3.7447616831959147`*^9, 
+  3.744761711723539*^9}},ExpressionUUID->"7324927b-1a54-4c26-945b-\
+b772642ed4f5"],
+
+Cell[BoxData[
+ GraphicsBox[
+  LineBox[NCache[{{0, 0}, {
+     Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+     0, 3^Rational[1, 2]}, {-1, 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[3, 2] 3^Rational[1, 2]}, {-1, 2 
+      3^Rational[1, 2]}, {0, 2 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[5, 2] 3^Rational[1, 2]}, {
+     0, 3 3^Rational[1, 2]}, {-1, 3 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[7, 2] 3^Rational[1, 2]}, {-2, 3 
+      3^Rational[1, 2]}, {-3, 3 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[7, 2] 3^Rational[1, 2]}, {-3, 4 
+      3^Rational[1, 2]}, {-4, 4 3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[9, 2] 3^Rational[1, 2]}, {-4, 5 
+      3^Rational[1, 2]}, {-3, 5 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[11, 2] 3^Rational[1, 2]}, {-3, 6 
+      3^Rational[1, 2]}, {-2, 6 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[11, 2] 3^Rational[1, 2]}, {-1, 6 
+      3^Rational[1, 2]}, {0, 6 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[13, 2] 3^Rational[1, 2]}, {
+     0, 7 3^Rational[1, 2]}, {-1, 7 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[15, 2] 3^Rational[1, 2]}, {-1, 8 
+      3^Rational[1, 2]}, {0, 8 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[17, 2] 3^Rational[1, 2]}, {
+     0, 9 3^Rational[1, 2]}, {-1, 9 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[19, 2] 3^Rational[1, 2]}, {-2, 9 
+      3^Rational[1, 2]}, {-3, 9 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[19, 2] 3^Rational[1, 2]}, {-3, 10 
+      3^Rational[1, 2]}, {-4, 10 3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[21, 2] 3^Rational[1, 2]}, {-5, 10 
+      3^Rational[1, 2]}, {-6, 10 3^Rational[1, 2]}, {
+     Rational[-11, 2], Rational[19, 2] 3^Rational[1, 2]}, {-6, 9 
+      3^Rational[1, 2]}, {-7, 9 3^Rational[1, 2]}, {
+     Rational[-15, 2], Rational[19, 2] 3^Rational[1, 2]}, {-8, 9 
+      3^Rational[1, 2]}, {-9, 9 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[19, 2] 3^Rational[1, 2]}, {-9, 10 
+      3^Rational[1, 2]}, {-10, 10 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[21, 2] 3^Rational[1, 2]}, {-10, 11 
+      3^Rational[1, 2]}, {-9, 11 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[23, 2] 3^Rational[1, 2]}, {-9, 12 
+      3^Rational[1, 2]}, {-10, 12 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[25, 2] 3^Rational[1, 2]}, {-11, 12 
+      3^Rational[1, 2]}, {-12, 12 3^Rational[1, 2]}, {
+     Rational[-25, 2], Rational[25, 2] 3^Rational[1, 2]}, {-12, 13 
+      3^Rational[1, 2]}, {-13, 13 3^Rational[1, 2]}, {
+     Rational[-27, 2], Rational[27, 2] 3^Rational[1, 2]}, {-13, 14 
+      3^Rational[1, 2]}, {-12, 14 3^Rational[1, 2]}, {
+     Rational[-25, 2], Rational[29, 2] 3^Rational[1, 2]}, {-12, 15 
+      3^Rational[1, 2]}, {-11, 15 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[29, 2] 3^Rational[1, 2]}, {-10, 15 
+      3^Rational[1, 2]}, {-9, 15 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[31, 2] 3^Rational[1, 2]}, {-9, 16 
+      3^Rational[1, 2]}, {-10, 16 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[33, 2] 3^Rational[1, 2]}, {-10, 17 
+      3^Rational[1, 2]}, {-9, 17 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[35, 2] 3^Rational[1, 2]}, {-9, 18 
+      3^Rational[1, 2]}, {-8, 18 3^Rational[1, 2]}, {
+     Rational[-15, 2], Rational[35, 2] 3^Rational[1, 2]}, {-7, 18 
+      3^Rational[1, 2]}, {-6, 18 3^Rational[1, 2]}, {
+     Rational[-11, 2], Rational[35, 2] 3^Rational[1, 2]}, {-6, 17 
+      3^Rational[1, 2]}, {-5, 17 3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[33, 2] 3^Rational[1, 2]}, {-4, 17 
+      3^Rational[1, 2]}, {-3, 17 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[35, 2] 3^Rational[1, 2]}, {-3, 18 
+      3^Rational[1, 2]}, {-2, 18 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[35, 2] 3^Rational[1, 2]}, {-1, 18 
+      3^Rational[1, 2]}, {0, 18 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[37, 2] 3^Rational[1, 2]}, {
+     0, 19 3^Rational[1, 2]}, {-1, 19 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[39, 2] 3^Rational[1, 2]}, {-1, 20 
+      3^Rational[1, 2]}, {0, 20 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[41, 2] 3^Rational[1, 2]}, {
+     0, 21 3^Rational[1, 2]}, {-1, 21 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[43, 2] 3^Rational[1, 2]}, {-2, 21 
+      3^Rational[1, 2]}, {-3, 21 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[43, 2] 3^Rational[1, 2]}, {-3, 22 
+      3^Rational[1, 2]}, {-4, 22 3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[45, 2] 3^Rational[1, 2]}, {-4, 23 
+      3^Rational[1, 2]}, {-3, 23 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[47, 2] 3^Rational[1, 2]}, {-3, 24 
+      3^Rational[1, 2]}, {-2, 24 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[47, 2] 3^Rational[1, 2]}, {-1, 24 
+      3^Rational[1, 2]}, {0, 24 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[49, 2] 3^Rational[1, 2]}, {
+     0, 25 3^Rational[1, 2]}, {-1, 25 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[51, 2] 3^Rational[1, 2]}, {-1, 26 
+      3^Rational[1, 2]}, {0, 26 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[53, 2] 3^Rational[1, 2]}, {
+     0, 27 3^Rational[1, 2]}, {-1, 27 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[55, 2] 3^Rational[1, 2]}, {-2, 27 
+      3^Rational[1, 2]}, {-3, 27 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[55, 2] 3^Rational[1, 2]}, {-3, 28 
+      3^Rational[1, 2]}, {-4, 28 3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[57, 2] 3^Rational[1, 2]}, {-5, 28 
+      3^Rational[1, 2]}, {-6, 28 3^Rational[1, 2]}, {
+     Rational[-11, 2], Rational[55, 2] 3^Rational[1, 2]}, {-6, 27 
+      3^Rational[1, 2]}, {-7, 27 3^Rational[1, 2]}, {
+     Rational[-15, 2], Rational[55, 2] 3^Rational[1, 2]}, {-8, 27 
+      3^Rational[1, 2]}, {-9, 27 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[55, 2] 3^Rational[1, 2]}, {-9, 28 
+      3^Rational[1, 2]}, {-10, 28 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[57, 2] 3^Rational[1, 2]}, {-10, 29 
+      3^Rational[1, 2]}, {-9, 29 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[59, 2] 3^Rational[1, 2]}, {-9, 30 
+      3^Rational[1, 2]}, {-10, 30 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[61, 2] 3^Rational[1, 2]}, {-11, 30 
+      3^Rational[1, 2]}, {-12, 30 3^Rational[1, 2]}, {
+     Rational[-25, 2], Rational[61, 2] 3^Rational[1, 2]}, {-12, 31 
+      3^Rational[1, 2]}, {-13, 31 3^Rational[1, 2]}, {
+     Rational[-27, 2], Rational[63, 2] 3^Rational[1, 2]}, {-14, 31 
+      3^Rational[1, 2]}, {-15, 31 3^Rational[1, 2]}, {
+     Rational[-29, 2], Rational[61, 2] 3^Rational[1, 2]}, {-15, 30 
+      3^Rational[1, 2]}, {-16, 30 3^Rational[1, 2]}, {
+     Rational[-33, 2], Rational[61, 2] 3^Rational[1, 2]}, {-17, 30 
+      3^Rational[1, 2]}, {-18, 30 3^Rational[1, 2]}, {
+     Rational[-35, 2], Rational[59, 2] 3^Rational[1, 2]}, {-18, 29 
+      3^Rational[1, 2]}, {-17, 29 3^Rational[1, 2]}, {
+     Rational[-33, 2], Rational[57, 2] 3^Rational[1, 2]}, {-17, 28 
+      3^Rational[1, 2]}, {-18, 28 3^Rational[1, 2]}, {
+     Rational[-35, 2], Rational[55, 2] 3^Rational[1, 2]}, {-18, 27 
+      3^Rational[1, 2]}, {-19, 27 3^Rational[1, 2]}, {
+     Rational[-39, 2], Rational[55, 2] 3^Rational[1, 2]}, {-20, 27 
+      3^Rational[1, 2]}, {-21, 27 3^Rational[1, 2]}, {
+     Rational[-43, 2], Rational[55, 2] 3^Rational[1, 2]}, {-21, 28 
+      3^Rational[1, 2]}, {-22, 28 3^Rational[1, 2]}, {
+     Rational[-45, 2], Rational[57, 2] 3^Rational[1, 2]}, {-23, 28 
+      3^Rational[1, 2]}, {-24, 28 3^Rational[1, 2]}, {
+     Rational[-47, 2], Rational[55, 2] 3^Rational[1, 2]}, {-24, 27 
+      3^Rational[1, 2]}, {-25, 27 3^Rational[1, 2]}, {
+     Rational[-51, 2], Rational[55, 2] 3^Rational[1, 2]}, {-26, 27 
+      3^Rational[1, 2]}, {-27, 27 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[55, 2] 3^Rational[1, 2]}, {-27, 28 
+      3^Rational[1, 2]}, {-28, 28 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[57, 2] 3^Rational[1, 2]}, {-28, 29 
+      3^Rational[1, 2]}, {-27, 29 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[59, 2] 3^Rational[1, 2]}, {-27, 30 
+      3^Rational[1, 2]}, {-28, 30 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[61, 2] 3^Rational[1, 2]}, {-29, 30 
+      3^Rational[1, 2]}, {-30, 30 3^Rational[1, 2]}, {
+     Rational[-61, 2], Rational[61, 2] 3^Rational[1, 2]}, {-30, 31 
+      3^Rational[1, 2]}, {-31, 31 3^Rational[1, 2]}, {
+     Rational[-63, 2], Rational[63, 2] 3^Rational[1, 2]}, {-31, 32 
+      3^Rational[1, 2]}, {-30, 32 3^Rational[1, 2]}, {
+     Rational[-61, 2], Rational[65, 2] 3^Rational[1, 2]}, {-30, 33 
+      3^Rational[1, 2]}, {-29, 33 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[65, 2] 3^Rational[1, 2]}, {-28, 33 
+      3^Rational[1, 2]}, {-27, 33 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[67, 2] 3^Rational[1, 2]}, {-27, 34 
+      3^Rational[1, 2]}, {-28, 34 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[69, 2] 3^Rational[1, 2]}, {-28, 35 
+      3^Rational[1, 2]}, {-27, 35 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[71, 2] 3^Rational[1, 2]}, {-27, 36 
+      3^Rational[1, 2]}, {-28, 36 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[73, 2] 3^Rational[1, 2]}, {-29, 36 
+      3^Rational[1, 2]}, {-30, 36 3^Rational[1, 2]}, {
+     Rational[-61, 2], Rational[73, 2] 3^Rational[1, 2]}, {-30, 37 
+      3^Rational[1, 2]}, {-31, 37 3^Rational[1, 2]}, {
+     Rational[-63, 2], Rational[75, 2] 3^Rational[1, 2]}, {-32, 37 
+      3^Rational[1, 2]}, {-33, 37 3^Rational[1, 2]}, {
+     Rational[-65, 2], Rational[73, 2] 3^Rational[1, 2]}, {-33, 36 
+      3^Rational[1, 2]}, {-34, 36 3^Rational[1, 2]}, {
+     Rational[-69, 2], Rational[73, 2] 3^Rational[1, 2]}, {-35, 36 
+      3^Rational[1, 2]}, {-36, 36 3^Rational[1, 2]}, {
+     Rational[-73, 2], Rational[73, 2] 3^Rational[1, 2]}, {-36, 37 
+      3^Rational[1, 2]}, {-37, 37 3^Rational[1, 2]}, {
+     Rational[-75, 2], Rational[75, 2] 3^Rational[1, 2]}, {-37, 38 
+      3^Rational[1, 2]}, {-36, 38 3^Rational[1, 2]}, {
+     Rational[-73, 2], Rational[77, 2] 3^Rational[1, 2]}, {-36, 39 
+      3^Rational[1, 2]}, {-37, 39 3^Rational[1, 2]}, {
+     Rational[-75, 2], Rational[79, 2] 3^Rational[1, 2]}, {-38, 39 
+      3^Rational[1, 2]}, {-39, 39 3^Rational[1, 2]}, {
+     Rational[-79, 2], Rational[79, 2] 3^Rational[1, 2]}, {-39, 40 
+      3^Rational[1, 2]}, {-40, 40 3^Rational[1, 2]}, {
+     Rational[-81, 2], Rational[81, 2] 3^Rational[1, 2]}, {-41, 40 
+      3^Rational[1, 2]}, {-42, 40 3^Rational[1, 2]}, {
+     Rational[-83, 2], Rational[79, 2] 3^Rational[1, 2]}, {-42, 39 
+      3^Rational[1, 2]}, {-43, 39 3^Rational[1, 2]}, {
+     Rational[-87, 2], Rational[79, 2] 3^Rational[1, 2]}, {-44, 39 
+      3^Rational[1, 2]}, {-45, 39 3^Rational[1, 2]}, {
+     Rational[-89, 2], Rational[77, 2] 3^Rational[1, 2]}, {-45, 38 
+      3^Rational[1, 2]}, {-44, 38 3^Rational[1, 2]}, {
+     Rational[-87, 2], Rational[75, 2] 3^Rational[1, 2]}, {-44, 37 
+      3^Rational[1, 2]}, {-45, 37 3^Rational[1, 2]}, {
+     Rational[-89, 2], Rational[73, 2] 3^Rational[1, 2]}, {-45, 36 
+      3^Rational[1, 2]}, {-46, 36 3^Rational[1, 2]}, {
+     Rational[-93, 2], Rational[73, 2] 3^Rational[1, 2]}, {-47, 36 
+      3^Rational[1, 2]}, {-48, 36 3^Rational[1, 2]}, {
+     Rational[-97, 2], Rational[73, 2] 3^Rational[1, 2]}, {-48, 37 
+      3^Rational[1, 2]}, {-49, 37 3^Rational[1, 2]}, {
+     Rational[-99, 2], Rational[75, 2] 3^Rational[1, 2]}, {-50, 37 
+      3^Rational[1, 2]}, {-51, 37 3^Rational[1, 2]}, {
+     Rational[-101, 2], Rational[73, 2] 3^Rational[1, 2]}, {-51, 36 
+      3^Rational[1, 2]}, {-52, 36 3^Rational[1, 2]}, {
+     Rational[-105, 2], Rational[73, 2] 3^Rational[1, 2]}, {-53, 36 
+      3^Rational[1, 2]}, {-54, 36 3^Rational[1, 2]}, {
+     Rational[-107, 2], Rational[71, 2] 3^Rational[1, 2]}, {-54, 35 
+      3^Rational[1, 2]}, {-53, 35 3^Rational[1, 2]}, {
+     Rational[-105, 2], Rational[69, 2] 3^Rational[1, 2]}, {-53, 34 
+      3^Rational[1, 2]}, {-54, 34 3^Rational[1, 2]}, {
+     Rational[-107, 2], Rational[67, 2] 3^Rational[1, 2]}, {-54, 33 
+      3^Rational[1, 2]}, {-53, 33 3^Rational[1, 2]}, {
+     Rational[-105, 2], Rational[65, 2] 3^Rational[1, 2]}, {-52, 33 
+      3^Rational[1, 2]}, {-51, 33 3^Rational[1, 2]}, {
+     Rational[-101, 2], Rational[65, 2] 3^Rational[1, 2]}, {-51, 32 
+      3^Rational[1, 2]}, {-50, 32 3^Rational[1, 2]}, {
+     Rational[-99, 2], Rational[63, 2] 3^Rational[1, 2]}, {-50, 31 
+      3^Rational[1, 2]}, {-51, 31 3^Rational[1, 2]}, {
+     Rational[-101, 2], Rational[61, 2] 3^Rational[1, 2]}, {-51, 30 
+      3^Rational[1, 2]}, {-52, 30 3^Rational[1, 2]}, {
+     Rational[-105, 2], Rational[61, 2] 3^Rational[1, 2]}, {-53, 30 
+      3^Rational[1, 2]}, {-54, 30 3^Rational[1, 2]}, {
+     Rational[-107, 2], Rational[59, 2] 3^Rational[1, 2]}, {-54, 29 
+      3^Rational[1, 2]}, {-53, 29 3^Rational[1, 2]}, {
+     Rational[-105, 2], Rational[57, 2] 3^Rational[1, 2]}, {-53, 28 
+      3^Rational[1, 2]}, {-54, 28 3^Rational[1, 2]}, {
+     Rational[-107, 2], Rational[55, 2] 3^Rational[1, 2]}, {-54, 27 
+      3^Rational[1, 2]}, {-55, 27 3^Rational[1, 2]}, {
+     Rational[-111, 2], Rational[55, 2] 3^Rational[1, 2]}, {-56, 27 
+      3^Rational[1, 2]}, {-57, 27 3^Rational[1, 2]}, {
+     Rational[-115, 2], Rational[55, 2] 3^Rational[1, 2]}, {-57, 28 
+      3^Rational[1, 2]}, {-58, 28 3^Rational[1, 2]}, {
+     Rational[-117, 2], Rational[57, 2] 3^Rational[1, 2]}, {-59, 28 
+      3^Rational[1, 2]}, {-60, 28 3^Rational[1, 2]}, {
+     Rational[-119, 2], Rational[55, 2] 3^Rational[1, 2]}, {-60, 27 
+      3^Rational[1, 2]}, {-61, 27 3^Rational[1, 2]}, {
+     Rational[-123, 2], Rational[55, 2] 3^Rational[1, 2]}, {-62, 27 
+      3^Rational[1, 2]}, {-63, 27 3^Rational[1, 2]}, {
+     Rational[-127, 2], Rational[55, 2] 3^Rational[1, 2]}, {-63, 28 
+      3^Rational[1, 2]}, {-64, 28 3^Rational[1, 2]}, {
+     Rational[-129, 2], Rational[57, 2] 3^Rational[1, 2]}, {-64, 29 
+      3^Rational[1, 2]}, {-63, 29 3^Rational[1, 2]}, {
+     Rational[-127, 2], Rational[59, 2] 3^Rational[1, 2]}, {-63, 30 
+      3^Rational[1, 2]}, {-64, 30 3^Rational[1, 2]}, {
+     Rational[-129, 2], Rational[61, 2] 3^Rational[1, 2]}, {-65, 30 
+      3^Rational[1, 2]}, {-66, 30 3^Rational[1, 2]}, {
+     Rational[-133, 2], Rational[61, 2] 3^Rational[1, 2]}, {-66, 31 
+      3^Rational[1, 2]}, {-67, 31 3^Rational[1, 2]}, {
+     Rational[-135, 2], Rational[63, 2] 3^Rational[1, 2]}, {-68, 31 
+      3^Rational[1, 2]}, {-69, 31 3^Rational[1, 2]}, {
+     Rational[-137, 2], Rational[61, 2] 3^Rational[1, 2]}, {-69, 30 
+      3^Rational[1, 2]}, {-70, 30 3^Rational[1, 2]}, {
+     Rational[-141, 2], Rational[61, 2] 3^Rational[1, 2]}, {-71, 30 
+      3^Rational[1, 2]}, {-72, 30 3^Rational[1, 2]}, {
+     Rational[-143, 2], Rational[59, 2] 3^Rational[1, 2]}, {-72, 29 
+      3^Rational[1, 2]}, {-71, 29 3^Rational[1, 2]}, {
+     Rational[-141, 2], Rational[57, 2] 3^Rational[1, 2]}, {-71, 28 
+      3^Rational[1, 2]}, {-72, 28 3^Rational[1, 2]}, {
+     Rational[-143, 2], Rational[55, 2] 3^Rational[1, 2]}, {-72, 27 
+      3^Rational[1, 2]}, {-73, 27 3^Rational[1, 2]}, {
+     Rational[-147, 2], Rational[55, 2] 3^Rational[1, 2]}, {-74, 27 
+      3^Rational[1, 2]}, {-75, 27 3^Rational[1, 2]}, {
+     Rational[-151, 2], Rational[55, 2] 3^Rational[1, 2]}, {-75, 28 
+      3^Rational[1, 2]}, {-76, 28 3^Rational[1, 2]}, {
+     Rational[-153, 2], Rational[57, 2] 3^Rational[1, 2]}, {-77, 28 
+      3^Rational[1, 2]}, {-78, 28 3^Rational[1, 2]}, {
+     Rational[-155, 2], Rational[55, 2] 3^Rational[1, 2]}, {-78, 27 
+      3^Rational[1, 2]}, {-79, 27 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[55, 2] 3^Rational[1, 2]}, {-80, 27 
+      3^Rational[1, 2]}, {-81, 27 3^Rational[1, 2]}, {
+     Rational[-161, 2], Rational[53, 2] 3^Rational[1, 2]}, {-81, 26 
+      3^Rational[1, 2]}, {-80, 26 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[51, 2] 3^Rational[1, 2]}, {-80, 25 
+      3^Rational[1, 2]}, {-81, 25 3^Rational[1, 2]}, {
+     Rational[-161, 2], Rational[49, 2] 3^Rational[1, 2]}, {-81, 24 
+      3^Rational[1, 2]}, {-80, 24 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[47, 2] 3^Rational[1, 2]}, {-79, 24 
+      3^Rational[1, 2]}, {-78, 24 3^Rational[1, 2]}, {
+     Rational[-155, 2], Rational[47, 2] 3^Rational[1, 2]}, {-78, 23 
+      3^Rational[1, 2]}, {-77, 23 3^Rational[1, 2]}, {
+     Rational[-153, 2], Rational[45, 2] 3^Rational[1, 2]}, {-77, 22 
+      3^Rational[1, 2]}, {-78, 22 3^Rational[1, 2]}, {
+     Rational[-155, 2], Rational[43, 2] 3^Rational[1, 2]}, {-78, 21 
+      3^Rational[1, 2]}, {-79, 21 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[43, 2] 3^Rational[1, 2]}, {-80, 21 
+      3^Rational[1, 2]}, {-81, 21 3^Rational[1, 2]}, {
+     Rational[-161, 2], Rational[41, 2] 3^Rational[1, 2]}, {-81, 20 
+      3^Rational[1, 2]}, {-80, 20 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[39, 2] 3^Rational[1, 2]}, {-80, 19 
+      3^Rational[1, 2]}, {-81, 19 3^Rational[1, 2]}, {
+     Rational[-161, 2], Rational[37, 2] 3^Rational[1, 2]}, {-81, 18 
+      3^Rational[1, 2]}, {-80, 18 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[35, 2] 3^Rational[1, 2]}, {-79, 18 
+      3^Rational[1, 2]}, {-78, 18 3^Rational[1, 2]}, {
+     Rational[-155, 2], Rational[35, 2] 3^Rational[1, 2]}, {-78, 17 
+      3^Rational[1, 2]}, {-77, 17 3^Rational[1, 2]}, {
+     Rational[-153, 2], Rational[33, 2] 3^Rational[1, 2]}, {-76, 17 
+      3^Rational[1, 2]}, {-75, 17 3^Rational[1, 2]}, {
+     Rational[-151, 2], Rational[35, 2] 3^Rational[1, 2]}, {-75, 18 
+      3^Rational[1, 2]}, {-74, 18 3^Rational[1, 2]}, {
+     Rational[-147, 2], Rational[35, 2] 3^Rational[1, 2]}, {-73, 18 
+      3^Rational[1, 2]}, {-72, 18 3^Rational[1, 2]}, {
+     Rational[-143, 2], Rational[35, 2] 3^Rational[1, 2]}, {-72, 17 
+      3^Rational[1, 2]}, {-71, 17 3^Rational[1, 2]}, {
+     Rational[-141, 2], Rational[33, 2] 3^Rational[1, 2]}, {-71, 16 
+      3^Rational[1, 2]}, {-72, 16 3^Rational[1, 2]}, {
+     Rational[-143, 2], Rational[31, 2] 3^Rational[1, 2]}, {-72, 15 
+      3^Rational[1, 2]}, {-71, 15 3^Rational[1, 2]}, {
+     Rational[-141, 2], Rational[29, 2] 3^Rational[1, 2]}, {-70, 15 
+      3^Rational[1, 2]}, {-69, 15 3^Rational[1, 2]}, {
+     Rational[-137, 2], Rational[29, 2] 3^Rational[1, 2]}, {-69, 14 
+      3^Rational[1, 2]}, {-68, 14 3^Rational[1, 2]}, {
+     Rational[-135, 2], Rational[27, 2] 3^Rational[1, 2]}, {-68, 13 
+      3^Rational[1, 2]}, {-69, 13 3^Rational[1, 2]}, {
+     Rational[-137, 2], Rational[25, 2] 3^Rational[1, 2]}, {-69, 12 
+      3^Rational[1, 2]}, {-70, 12 3^Rational[1, 2]}, {
+     Rational[-141, 2], Rational[25, 2] 3^Rational[1, 2]}, {-71, 12 
+      3^Rational[1, 2]}, {-72, 12 3^Rational[1, 2]}, {
+     Rational[-143, 2], Rational[23, 2] 3^Rational[1, 2]}, {-72, 11 
+      3^Rational[1, 2]}, {-71, 11 3^Rational[1, 2]}, {
+     Rational[-141, 2], Rational[21, 2] 3^Rational[1, 2]}, {-71, 10 
+      3^Rational[1, 2]}, {-72, 10 3^Rational[1, 2]}, {
+     Rational[-143, 2], Rational[19, 2] 3^Rational[1, 2]}, {-72, 9 
+      3^Rational[1, 2]}, {-73, 9 3^Rational[1, 2]}, {
+     Rational[-147, 2], Rational[19, 2] 3^Rational[1, 2]}, {-74, 9 
+      3^Rational[1, 2]}, {-75, 9 3^Rational[1, 2]}, {
+     Rational[-151, 2], Rational[19, 2] 3^Rational[1, 2]}, {-75, 10 
+      3^Rational[1, 2]}, {-76, 10 3^Rational[1, 2]}, {
+     Rational[-153, 2], Rational[21, 2] 3^Rational[1, 2]}, {-77, 10 
+      3^Rational[1, 2]}, {-78, 10 3^Rational[1, 2]}, {
+     Rational[-155, 2], Rational[19, 2] 3^Rational[1, 2]}, {-78, 9 
+      3^Rational[1, 2]}, {-79, 9 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[19, 2] 3^Rational[1, 2]}, {-80, 9 
+      3^Rational[1, 2]}, {-81, 9 3^Rational[1, 2]}, {
+     Rational[-161, 2], Rational[17, 2] 3^Rational[1, 2]}, {-81, 8 
+      3^Rational[1, 2]}, {-80, 8 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[15, 2] 3^Rational[1, 2]}, {-80, 7 
+      3^Rational[1, 2]}, {-81, 7 3^Rational[1, 2]}, {
+     Rational[-161, 2], Rational[13, 2] 3^Rational[1, 2]}, {-81, 6 
+      3^Rational[1, 2]}, {-80, 6 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[11, 2] 3^Rational[1, 2]}, {-79, 6 
+      3^Rational[1, 2]}, {-78, 6 3^Rational[1, 2]}, {
+     Rational[-155, 2], Rational[11, 2] 3^Rational[1, 2]}, {-78, 5 
+      3^Rational[1, 2]}, {-77, 5 3^Rational[1, 2]}, {
+     Rational[-153, 2], Rational[9, 2] 3^Rational[1, 2]}, {-77, 4 
+      3^Rational[1, 2]}, {-78, 4 3^Rational[1, 2]}, {
+     Rational[-155, 2], Rational[7, 2] 3^Rational[1, 2]}, {-78, 3 
+      3^Rational[1, 2]}, {-79, 3 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[7, 2] 3^Rational[1, 2]}, {-80, 3 
+      3^Rational[1, 2]}, {-81, 3 3^Rational[1, 2]}, {
+     Rational[-161, 2], Rational[5, 2] 3^Rational[1, 2]}, {-81, 2 
+      3^Rational[1, 2]}, {-80, 2 3^Rational[1, 2]}, {
+     Rational[-159, 2], Rational[3, 2] 3^Rational[1, 2]}, {-80, 3^
+      Rational[1, 2]}, {-81, 3^Rational[1, 2]}, {
+     Rational[-161, 2], Rational[1, 2] 3^Rational[1, 2]}, {-81, 0}, {-80, 
+     0}, {Rational[-159, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-79, 
+     0}, {-78, 0}, {
+     Rational[-155, 2], Rational[-1, 2] 
+      3^Rational[1, 2]}, {-78, -3^Rational[1, 2]}, {-77, -3^Rational[1, 2]}, {
+     Rational[-153, 2], Rational[-3, 2] 
+      3^Rational[1, 2]}, {-76, -3^Rational[1, 2]}, {-75, -3^Rational[1, 2]}, {
+     Rational[-151, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-75, 0}, {-74, 
+     0}, {Rational[-147, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-73, 
+     0}, {-72, 0}, {
+     Rational[-143, 2], Rational[-1, 2] 
+      3^Rational[1, 2]}, {-72, -3^Rational[1, 2]}, {-71, -3^Rational[1, 2]}, {
+     Rational[-141, 2], Rational[-3, 2] 3^Rational[1, 2]}, {-71, (-2) 
+      3^Rational[1, 2]}, {-72, (-2) 3^Rational[1, 2]}, {
+     Rational[-143, 2], Rational[-5, 2] 3^Rational[1, 2]}, {-72, (-3) 
+      3^Rational[1, 2]}, {-71, (-3) 3^Rational[1, 2]}, {
+     Rational[-141, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-70, (-3) 
+      3^Rational[1, 2]}, {-69, (-3) 3^Rational[1, 2]}, {
+     Rational[-137, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-69, (-4) 
+      3^Rational[1, 2]}, {-68, (-4) 3^Rational[1, 2]}, {
+     Rational[-135, 2], Rational[-9, 2] 3^Rational[1, 2]}, {-67, (-4) 
+      3^Rational[1, 2]}, {-66, (-4) 3^Rational[1, 2]}, {
+     Rational[-133, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-66, (-3) 
+      3^Rational[1, 2]}, {-65, (-3) 3^Rational[1, 2]}, {
+     Rational[-129, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-64, (-3) 
+      3^Rational[1, 2]}, {-63, (-3) 3^Rational[1, 2]}, {
+     Rational[-127, 2], Rational[-5, 2] 3^Rational[1, 2]}, {-63, (-2) 
+      3^Rational[1, 2]}, {-64, (-2) 3^Rational[1, 2]}, {
+     Rational[-129, 2], Rational[-3, 2] 
+      3^Rational[1, 2]}, {-64, -3^Rational[1, 2]}, {-63, -3^Rational[1, 2]}, {
+     Rational[-127, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-63, 0}, {-62, 
+     0}, {Rational[-123, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-61, 
+     0}, {-60, 0}, {
+     Rational[-119, 2], Rational[-1, 2] 
+      3^Rational[1, 2]}, {-60, -3^Rational[1, 2]}, {-59, -3^Rational[1, 2]}, {
+     Rational[-117, 2], Rational[-3, 2] 
+      3^Rational[1, 2]}, {-58, -3^Rational[1, 2]}, {-57, -3^Rational[1, 2]}, {
+     Rational[-115, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-57, 0}, {-56, 
+     0}, {Rational[-111, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-55, 
+     0}, {-54, 0}, {
+     Rational[-107, 2], Rational[-1, 2] 
+      3^Rational[1, 2]}, {-54, -3^Rational[1, 2]}, {-53, -3^Rational[1, 2]}, {
+     Rational[-105, 2], Rational[-3, 2] 3^Rational[1, 2]}, {-53, (-2) 
+      3^Rational[1, 2]}, {-54, (-2) 3^Rational[1, 2]}, {
+     Rational[-107, 2], Rational[-5, 2] 3^Rational[1, 2]}, {-54, (-3) 
+      3^Rational[1, 2]}, {-53, (-3) 3^Rational[1, 2]}, {
+     Rational[-105, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-52, (-3) 
+      3^Rational[1, 2]}, {-51, (-3) 3^Rational[1, 2]}, {
+     Rational[-101, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-51, (-4) 
+      3^Rational[1, 2]}, {-50, (-4) 3^Rational[1, 2]}, {
+     Rational[-99, 2], Rational[-9, 2] 3^Rational[1, 2]}, {-50, (-5) 
+      3^Rational[1, 2]}, {-51, (-5) 3^Rational[1, 2]}, {
+     Rational[-101, 2], Rational[-11, 2] 3^Rational[1, 2]}, {-51, (-6) 
+      3^Rational[1, 2]}, {-52, (-6) 3^Rational[1, 2]}, {
+     Rational[-105, 2], Rational[-11, 2] 3^Rational[1, 2]}, {-53, (-6) 
+      3^Rational[1, 2]}, {-54, (-6) 3^Rational[1, 2]}, {
+     Rational[-107, 2], Rational[-13, 2] 3^Rational[1, 2]}, {-54, (-7) 
+      3^Rational[1, 2]}, {-53, (-7) 3^Rational[1, 2]}, {
+     Rational[-105, 2], Rational[-15, 2] 3^Rational[1, 2]}, {-53, (-8) 
+      3^Rational[1, 2]}, {-54, (-8) 3^Rational[1, 2]}, {
+     Rational[-107, 2], Rational[-17, 2] 3^Rational[1, 2]}, {-54, (-9) 
+      3^Rational[1, 2]}, {-53, (-9) 3^Rational[1, 2]}, {
+     Rational[-105, 2], Rational[-19, 2] 3^Rational[1, 2]}, {-52, (-9) 
+      3^Rational[1, 2]}, {-51, (-9) 3^Rational[1, 2]}, {
+     Rational[-101, 2], Rational[-19, 2] 3^Rational[1, 2]}, {-51, (-10) 
+      3^Rational[1, 2]}, {-50, (-10) 3^Rational[1, 2]}, {
+     Rational[-99, 2], Rational[-21, 2] 3^Rational[1, 2]}, {-49, (-10) 
+      3^Rational[1, 2]}, {-48, (-10) 3^Rational[1, 2]}, {
+     Rational[-97, 2], Rational[-19, 2] 3^Rational[1, 2]}, {-48, (-9) 
+      3^Rational[1, 2]}, {-47, (-9) 3^Rational[1, 2]}, {
+     Rational[-93, 2], Rational[-19, 2] 3^Rational[1, 2]}, {-46, (-9) 
+      3^Rational[1, 2]}, {-45, (-9) 3^Rational[1, 2]}, {
+     Rational[-89, 2], Rational[-19, 2] 3^Rational[1, 2]}, {-45, (-10) 
+      3^Rational[1, 2]}, {-44, (-10) 3^Rational[1, 2]}, {
+     Rational[-87, 2], Rational[-21, 2] 3^Rational[1, 2]}, {-44, (-11) 
+      3^Rational[1, 2]}, {-45, (-11) 3^Rational[1, 2]}, {
+     Rational[-89, 2], Rational[-23, 2] 3^Rational[1, 2]}, {-45, (-12) 
+      3^Rational[1, 2]}, {-44, (-12) 3^Rational[1, 2]}, {
+     Rational[-87, 2], Rational[-25, 2] 3^Rational[1, 2]}, {-43, (-12) 
+      3^Rational[1, 2]}, {-42, (-12) 3^Rational[1, 2]}, {
+     Rational[-83, 2], Rational[-25, 2] 3^Rational[1, 2]}, {-42, (-13) 
+      3^Rational[1, 2]}, {-41, (-13) 3^Rational[1, 2]}, {
+     Rational[-81, 2], Rational[-27, 2] 3^Rational[1, 2]}, {-40, (-13) 
+      3^Rational[1, 2]}, {-39, (-13) 3^Rational[1, 2]}, {
+     Rational[-79, 2], Rational[-25, 2] 3^Rational[1, 2]}, {-39, (-12) 
+      3^Rational[1, 2]}, {-38, (-12) 3^Rational[1, 2]}, {
+     Rational[-75, 2], Rational[-25, 2] 3^Rational[1, 2]}, {-37, (-12) 
+      3^Rational[1, 2]}, {-36, (-12) 3^Rational[1, 2]}, {
+     Rational[-73, 2], Rational[-23, 2] 3^Rational[1, 2]}, {-36, (-11) 
+      3^Rational[1, 2]}, {-37, (-11) 3^Rational[1, 2]}, {
+     Rational[-75, 2], Rational[-21, 2] 3^Rational[1, 2]}, {-37, (-10) 
+      3^Rational[1, 2]}, {-36, (-10) 3^Rational[1, 2]}, {
+     Rational[-73, 2], Rational[-19, 2] 3^Rational[1, 2]}, {-36, (-9) 
+      3^Rational[1, 2]}, {-35, (-9) 3^Rational[1, 2]}, {
+     Rational[-69, 2], Rational[-19, 2] 3^Rational[1, 2]}, {-34, (-9) 
+      3^Rational[1, 2]}, {-33, (-9) 3^Rational[1, 2]}, {
+     Rational[-65, 2], Rational[-19, 2] 3^Rational[1, 2]}, {-33, (-10) 
+      3^Rational[1, 2]}, {-32, (-10) 3^Rational[1, 2]}, {
+     Rational[-63, 2], Rational[-21, 2] 3^Rational[1, 2]}, {-31, (-10) 
+      3^Rational[1, 2]}, {-30, (-10) 3^Rational[1, 2]}, {
+     Rational[-61, 2], Rational[-19, 2] 3^Rational[1, 2]}, {-30, (-9) 
+      3^Rational[1, 2]}, {-29, (-9) 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[-19, 2] 3^Rational[1, 2]}, {-28, (-9) 
+      3^Rational[1, 2]}, {-27, (-9) 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[-17, 2] 3^Rational[1, 2]}, {-27, (-8) 
+      3^Rational[1, 2]}, {-28, (-8) 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[-15, 2] 3^Rational[1, 2]}, {-28, (-7) 
+      3^Rational[1, 2]}, {-27, (-7) 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[-13, 2] 3^Rational[1, 2]}, {-27, (-6) 
+      3^Rational[1, 2]}, {-28, (-6) 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[-11, 2] 3^Rational[1, 2]}, {-29, (-6) 
+      3^Rational[1, 2]}, {-30, (-6) 3^Rational[1, 2]}, {
+     Rational[-61, 2], Rational[-11, 2] 3^Rational[1, 2]}, {-30, (-5) 
+      3^Rational[1, 2]}, {-31, (-5) 3^Rational[1, 2]}, {
+     Rational[-63, 2], Rational[-9, 2] 3^Rational[1, 2]}, {-31, (-4) 
+      3^Rational[1, 2]}, {-30, (-4) 3^Rational[1, 2]}, {
+     Rational[-61, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-30, (-3) 
+      3^Rational[1, 2]}, {-29, (-3) 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-28, (-3) 
+      3^Rational[1, 2]}, {-27, (-3) 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[-5, 2] 3^Rational[1, 2]}, {-27, (-2) 
+      3^Rational[1, 2]}, {-28, (-2) 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[-3, 2] 
+      3^Rational[1, 2]}, {-28, -3^Rational[1, 2]}, {-27, -3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-27, 0}, {-26, 
+     0}, {Rational[-51, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-25, 0}, {-24,
+      0}, {Rational[-47, 2], Rational[-1, 2] 
+      3^Rational[1, 2]}, {-24, -3^Rational[1, 2]}, {-23, -3^Rational[1, 2]}, {
+     Rational[-45, 2], Rational[-3, 2] 
+      3^Rational[1, 2]}, {-22, -3^Rational[1, 2]}, {-21, -3^Rational[1, 2]}, {
+     Rational[-43, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-21, 0}, {-20, 
+     0}, {Rational[-39, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-19, 0}, {-18,
+      0}, {Rational[-35, 2], Rational[-1, 2] 
+      3^Rational[1, 2]}, {-18, -3^Rational[1, 2]}, {-17, -3^Rational[1, 2]}, {
+     Rational[-33, 2], Rational[-3, 2] 3^Rational[1, 2]}, {-17, (-2) 
+      3^Rational[1, 2]}, {-18, (-2) 3^Rational[1, 2]}, {
+     Rational[-35, 2], Rational[-5, 2] 3^Rational[1, 2]}, {-18, (-3) 
+      3^Rational[1, 2]}, {-17, (-3) 3^Rational[1, 2]}, {
+     Rational[-33, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-16, (-3) 
+      3^Rational[1, 2]}, {-15, (-3) 3^Rational[1, 2]}, {
+     Rational[-29, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-15, (-4) 
+      3^Rational[1, 2]}, {-14, (-4) 3^Rational[1, 2]}, {
+     Rational[-27, 2], Rational[-9, 2] 3^Rational[1, 2]}, {-13, (-4) 
+      3^Rational[1, 2]}, {-12, (-4) 3^Rational[1, 2]}, {
+     Rational[-25, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-12, (-3) 
+      3^Rational[1, 2]}, {-11, (-3) 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[-7, 2] 3^Rational[1, 2]}, {-10, (-3) 
+      3^Rational[1, 2]}, {-9, (-3) 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[-5, 2] 3^Rational[1, 2]}, {-9, (-2) 
+      3^Rational[1, 2]}, {-10, (-2) 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[-3, 2] 
+      3^Rational[1, 2]}, {-10, -3^Rational[1, 2]}, {-9, -3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-9, 0}, {-8, 0}, {
+     Rational[-15, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-7, 0}, {-6, 0}, {
+     Rational[-11, 2], Rational[-1, 2] 
+      3^Rational[1, 2]}, {-6, -3^Rational[1, 2]}, {-5, -3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[-3, 2] 
+      3^Rational[1, 2]}, {-4, -3^Rational[1, 2]}, {-3, -3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-3, 0}, {-2, 0}, {
+     Rational[-3, 2], Rational[-1, 2] 3^Rational[1, 2]}, {-1, 0}, {0, 0}, {
+     Rational[-1, 2], Rational[1, 2] 3^Rational[1, 2]}, {
+     0, 3^Rational[1, 2]}, {-1, 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[3, 2] 3^Rational[1, 2]}, {-1, 2 
+      3^Rational[1, 2]}, {0, 2 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[5, 2] 3^Rational[1, 2]}, {
+     0, 3 3^Rational[1, 2]}, {-1, 3 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[7, 2] 3^Rational[1, 2]}, {-2, 3 
+      3^Rational[1, 2]}, {-3, 3 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[7, 2] 3^Rational[1, 2]}, {-3, 4 
+      3^Rational[1, 2]}, {-4, 4 3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[9, 2] 3^Rational[1, 2]}, {-4, 5 
+      3^Rational[1, 2]}, {-3, 5 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[11, 2] 3^Rational[1, 2]}, {-3, 6 
+      3^Rational[1, 2]}, {-2, 6 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[11, 2] 3^Rational[1, 2]}, {-1, 6 
+      3^Rational[1, 2]}, {0, 6 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[13, 2] 3^Rational[1, 2]}, {
+     0, 7 3^Rational[1, 2]}, {-1, 7 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[15, 2] 3^Rational[1, 2]}, {-1, 8 
+      3^Rational[1, 2]}, {0, 8 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[17, 2] 3^Rational[1, 2]}, {
+     0, 9 3^Rational[1, 2]}, {-1, 9 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[19, 2] 3^Rational[1, 2]}, {-2, 9 
+      3^Rational[1, 2]}, {-3, 9 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[19, 2] 3^Rational[1, 2]}, {-3, 10 
+      3^Rational[1, 2]}, {-4, 10 3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[21, 2] 3^Rational[1, 2]}, {-5, 10 
+      3^Rational[1, 2]}, {-6, 10 3^Rational[1, 2]}, {
+     Rational[-11, 2], Rational[19, 2] 3^Rational[1, 2]}, {-6, 9 
+      3^Rational[1, 2]}, {-7, 9 3^Rational[1, 2]}, {
+     Rational[-15, 2], Rational[19, 2] 3^Rational[1, 2]}, {-8, 9 
+      3^Rational[1, 2]}, {-9, 9 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[19, 2] 3^Rational[1, 2]}, {-9, 10 
+      3^Rational[1, 2]}, {-10, 10 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[21, 2] 3^Rational[1, 2]}, {-10, 11 
+      3^Rational[1, 2]}, {-9, 11 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[23, 2] 3^Rational[1, 2]}, {-9, 12 
+      3^Rational[1, 2]}, {-10, 12 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[25, 2] 3^Rational[1, 2]}, {-11, 12 
+      3^Rational[1, 2]}, {-12, 12 3^Rational[1, 2]}, {
+     Rational[-25, 2], Rational[25, 2] 3^Rational[1, 2]}, {-12, 13 
+      3^Rational[1, 2]}, {-13, 13 3^Rational[1, 2]}, {
+     Rational[-27, 2], Rational[27, 2] 3^Rational[1, 2]}, {-13, 14 
+      3^Rational[1, 2]}, {-12, 14 3^Rational[1, 2]}, {
+     Rational[-25, 2], Rational[29, 2] 3^Rational[1, 2]}, {-12, 15 
+      3^Rational[1, 2]}, {-11, 15 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[29, 2] 3^Rational[1, 2]}, {-10, 15 
+      3^Rational[1, 2]}, {-9, 15 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[31, 2] 3^Rational[1, 2]}, {-9, 16 
+      3^Rational[1, 2]}, {-10, 16 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[33, 2] 3^Rational[1, 2]}, {-10, 17 
+      3^Rational[1, 2]}, {-9, 17 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[35, 2] 3^Rational[1, 2]}, {-9, 18 
+      3^Rational[1, 2]}, {-8, 18 3^Rational[1, 2]}, {
+     Rational[-15, 2], Rational[35, 2] 3^Rational[1, 2]}, {-7, 18 
+      3^Rational[1, 2]}, {-6, 18 3^Rational[1, 2]}, {
+     Rational[-11, 2], Rational[35, 2] 3^Rational[1, 2]}, {-6, 17 
+      3^Rational[1, 2]}, {-5, 17 3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[33, 2] 3^Rational[1, 2]}, {-4, 17 
+      3^Rational[1, 2]}, {-3, 17 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[35, 2] 3^Rational[1, 2]}, {-3, 18 
+      3^Rational[1, 2]}, {-2, 18 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[35, 2] 3^Rational[1, 2]}, {-1, 18 
+      3^Rational[1, 2]}, {0, 18 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[37, 2] 3^Rational[1, 2]}, {
+     0, 19 3^Rational[1, 2]}, {-1, 19 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[39, 2] 3^Rational[1, 2]}, {-1, 20 
+      3^Rational[1, 2]}, {0, 20 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[41, 2] 3^Rational[1, 2]}, {
+     0, 21 3^Rational[1, 2]}, {-1, 21 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[43, 2] 3^Rational[1, 2]}, {-2, 21 
+      3^Rational[1, 2]}, {-3, 21 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[43, 2] 3^Rational[1, 2]}, {-3, 22 
+      3^Rational[1, 2]}, {-4, 22 3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[45, 2] 3^Rational[1, 2]}, {-4, 23 
+      3^Rational[1, 2]}, {-3, 23 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[47, 2] 3^Rational[1, 2]}, {-3, 24 
+      3^Rational[1, 2]}, {-2, 24 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[47, 2] 3^Rational[1, 2]}, {-1, 24 
+      3^Rational[1, 2]}, {0, 24 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[49, 2] 3^Rational[1, 2]}, {
+     0, 25 3^Rational[1, 2]}, {-1, 25 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[51, 2] 3^Rational[1, 2]}, {-1, 26 
+      3^Rational[1, 2]}, {0, 26 3^Rational[1, 2]}, {
+     Rational[-1, 2], Rational[53, 2] 3^Rational[1, 2]}, {
+     0, 27 3^Rational[1, 2]}, {-1, 27 3^Rational[1, 2]}, {
+     Rational[-3, 2], Rational[55, 2] 3^Rational[1, 2]}, {-2, 27 
+      3^Rational[1, 2]}, {-3, 27 3^Rational[1, 2]}, {
+     Rational[-7, 2], Rational[55, 2] 3^Rational[1, 2]}, {-3, 28 
+      3^Rational[1, 2]}, {-4, 28 3^Rational[1, 2]}, {
+     Rational[-9, 2], Rational[57, 2] 3^Rational[1, 2]}, {-5, 28 
+      3^Rational[1, 2]}, {-6, 28 3^Rational[1, 2]}, {
+     Rational[-11, 2], Rational[55, 2] 3^Rational[1, 2]}, {-6, 27 
+      3^Rational[1, 2]}, {-7, 27 3^Rational[1, 2]}, {
+     Rational[-15, 2], Rational[55, 2] 3^Rational[1, 2]}, {-8, 27 
+      3^Rational[1, 2]}, {-9, 27 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[55, 2] 3^Rational[1, 2]}, {-9, 28 
+      3^Rational[1, 2]}, {-10, 28 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[57, 2] 3^Rational[1, 2]}, {-10, 29 
+      3^Rational[1, 2]}, {-9, 29 3^Rational[1, 2]}, {
+     Rational[-19, 2], Rational[59, 2] 3^Rational[1, 2]}, {-9, 30 
+      3^Rational[1, 2]}, {-10, 30 3^Rational[1, 2]}, {
+     Rational[-21, 2], Rational[61, 2] 3^Rational[1, 2]}, {-11, 30 
+      3^Rational[1, 2]}, {-12, 30 3^Rational[1, 2]}, {
+     Rational[-25, 2], Rational[61, 2] 3^Rational[1, 2]}, {-12, 31 
+      3^Rational[1, 2]}, {-13, 31 3^Rational[1, 2]}, {
+     Rational[-27, 2], Rational[63, 2] 3^Rational[1, 2]}, {-14, 31 
+      3^Rational[1, 2]}, {-15, 31 3^Rational[1, 2]}, {
+     Rational[-29, 2], Rational[61, 2] 3^Rational[1, 2]}, {-15, 30 
+      3^Rational[1, 2]}, {-16, 30 3^Rational[1, 2]}, {
+     Rational[-33, 2], Rational[61, 2] 3^Rational[1, 2]}, {-17, 30 
+      3^Rational[1, 2]}, {-18, 30 3^Rational[1, 2]}, {
+     Rational[-35, 2], Rational[59, 2] 3^Rational[1, 2]}, {-18, 29 
+      3^Rational[1, 2]}, {-17, 29 3^Rational[1, 2]}, {
+     Rational[-33, 2], Rational[57, 2] 3^Rational[1, 2]}, {-17, 28 
+      3^Rational[1, 2]}, {-18, 28 3^Rational[1, 2]}, {
+     Rational[-35, 2], Rational[55, 2] 3^Rational[1, 2]}, {-18, 27 
+      3^Rational[1, 2]}, {-19, 27 3^Rational[1, 2]}, {
+     Rational[-39, 2], Rational[55, 2] 3^Rational[1, 2]}, {-20, 27 
+      3^Rational[1, 2]}, {-21, 27 3^Rational[1, 2]}, {
+     Rational[-43, 2], Rational[55, 2] 3^Rational[1, 2]}, {-21, 28 
+      3^Rational[1, 2]}, {-22, 28 3^Rational[1, 2]}, {
+     Rational[-45, 2], Rational[57, 2] 3^Rational[1, 2]}, {-23, 28 
+      3^Rational[1, 2]}, {-24, 28 3^Rational[1, 2]}, {
+     Rational[-47, 2], Rational[55, 2] 3^Rational[1, 2]}, {-24, 27 
+      3^Rational[1, 2]}, {-25, 27 3^Rational[1, 2]}, {
+     Rational[-51, 2], Rational[55, 2] 3^Rational[1, 2]}, {-26, 27 
+      3^Rational[1, 2]}, {-27, 27 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[55, 2] 3^Rational[1, 2]}, {-27, 28 
+      3^Rational[1, 2]}, {-28, 28 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[57, 2] 3^Rational[1, 2]}, {-28, 29 
+      3^Rational[1, 2]}, {-27, 29 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[59, 2] 3^Rational[1, 2]}, {-27, 30 
+      3^Rational[1, 2]}, {-28, 30 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[61, 2] 3^Rational[1, 2]}, {-29, 30 
+      3^Rational[1, 2]}, {-30, 30 3^Rational[1, 2]}, {
+     Rational[-61, 2], Rational[61, 2] 3^Rational[1, 2]}, {-30, 31 
+      3^Rational[1, 2]}, {-31, 31 3^Rational[1, 2]}, {
+     Rational[-63, 2], Rational[63, 2] 3^Rational[1, 2]}, {-31, 32 
+      3^Rational[1, 2]}, {-30, 32 3^Rational[1, 2]}, {
+     Rational[-61, 2], Rational[65, 2] 3^Rational[1, 2]}, {-30, 33 
+      3^Rational[1, 2]}, {-29, 33 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[65, 2] 3^Rational[1, 2]}, {-28, 33 
+      3^Rational[1, 2]}, {-27, 33 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[67, 2] 3^Rational[1, 2]}, {-27, 34 
+      3^Rational[1, 2]}, {-28, 34 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[69, 2] 3^Rational[1, 2]}, {-28, 35 
+      3^Rational[1, 2]}, {-27, 35 3^Rational[1, 2]}, {
+     Rational[-55, 2], Rational[71, 2] 3^Rational[1, 2]}, {-27, 36 
+      3^Rational[1, 2]}, {-28, 36 3^Rational[1, 2]}, {
+     Rational[-57, 2], Rational[73, 2] 3^Rational[1, 2]}, {-29, 36 
+      3^Rational[1, 2]}, {-30, 36 3^Rational[1, 2]}, {
+     Rational[-61, 2], Rational[73, 2] 3^Rational[1, 2]}, {-30, 37 
+      3^Rational[1, 2]}, {-31, 37 3^Rational[1, 2]}, {
+     Rational[-63, 2], Rational[75, 2] 3^Rational[1, 2]}, {-32, 37 
+      3^Rational[1, 2]}, {-33, 37 3^Rational[1, 2]}, {
+     Rational[-65, 2], Rational[73, 2] 3^Rational[1, 2]}, {-33, 36 
+      3^Rational[1, 2]}, {-34, 36 3^Rational[1, 2]}, {
+     Rational[-69, 2], Rational[73, 2] 3^Rational[1, 2]}, {-35, 36 
+      3^Rational[1, 2]}, {-36, 36 3^Rational[1, 2]}, {
+     Rational[-73, 2], Rational[73, 2] 3^Rational[1, 2]}, {-36, 37 
+      3^Rational[1, 2]}, {-37, 37 3^Rational[1, 2]}, {
+     Rational[-75, 2], Rational[75, 2] 3^Rational[1, 2]}, {-37, 38 
+      3^Rational[1, 2]}, {-36, 38 3^Rational[1, 2]}, {
+     Rational[-73, 2], Rational[77, 2] 3^Rational[1, 2]}, {-36, 39 
+      3^Rational[1, 2]}, {-37, 39 3^Rational[1, 2]}, {
+     Rational[-75, 2], Rational[79, 2] 3^Rational[1, 2]}, {-38, 39 
+      3^Rational[1, 2]}, {-39, 39 3^Rational[1, 2]}, {
+     Rational[-79, 2], Rational[79, 2] 3^Rational[1, 2]}, {-39, 40 
+      3^Rational[1, 2]}, {-40, 40 3^Rational[1, 2]}, {
+     Rational[-81, 2], Rational[81, 2] 3^Rational[1, 2]}}, {{0, 0}, {-0.5, 
+     0.8660254037844386}, {
+     0, 1.7320508075688772`}, {-1, 1.7320508075688772`}, {-1.5, 
+     2.598076211353316}, {-1, 3.4641016151377544`}, {
+     0, 3.4641016151377544`}, {-0.5, 4.330127018922193}, {
+     0, 5.196152422706632}, {-1, 5.196152422706632}, {-1.5, 
+     6.06217782649107}, {-2, 5.196152422706632}, {-3, 
+      5.196152422706632}, {-3.5, 
+     6.06217782649107}, {-3, 6.928203230275509}, {-4, 
+      6.928203230275509}, {-4.5, 
+     7.794228634059947}, {-4, 8.660254037844386}, {-3, 
+      8.660254037844386}, {-3.5, 
+     9.526279441628825}, {-3, 10.392304845413264`}, {-2, 
+      10.392304845413264`}, {-1.5, 
+     9.526279441628825}, {-1, 10.392304845413264`}, {
+     0, 10.392304845413264`}, {-0.5, 11.258330249197702`}, {
+     0, 12.12435565298214}, {-1, 12.12435565298214}, {-1.5, 
+     12.990381056766578`}, {-1, 13.856406460551018`}, {
+     0, 13.856406460551018`}, {-0.5, 14.722431864335457`}, {
+     0, 15.588457268119894`}, {-1, 15.588457268119894`}, {-1.5, 
+     16.454482671904334`}, {-2, 15.588457268119894`}, {-3, 
+      15.588457268119894`}, {-3.5, 
+     16.454482671904334`}, {-3, 17.32050807568877}, {-4, 
+      17.32050807568877}, {-4.5, 
+     18.186533479473212`}, {-5, 17.32050807568877}, {-6, 
+      17.32050807568877}, {-5.5, 
+     16.454482671904334`}, {-6, 15.588457268119894`}, {-7, 
+      15.588457268119894`}, {-7.5, 
+     16.454482671904334`}, {-8, 15.588457268119894`}, {-9, 
+      15.588457268119894`}, {-9.5, 
+     16.454482671904334`}, {-9, 17.32050807568877}, {-10, 
+      17.32050807568877}, {-10.5, 
+     18.186533479473212`}, {-10, 19.05255888325765}, {-9, 
+      19.05255888325765}, {-9.5, 
+     19.918584287042087`}, {-9, 20.784609690826528`}, {-10, 
+      20.784609690826528`}, {-10.5, 
+     21.650635094610966`}, {-11, 20.784609690826528`}, {-12, 
+      20.784609690826528`}, {-12.5, 
+     21.650635094610966`}, {-12, 22.516660498395403`}, {-13, 
+      22.516660498395403`}, {-13.5, 
+     23.38268590217984}, {-13, 24.24871130596428}, {-12, 
+      24.24871130596428}, {-12.5, 
+     25.11473670974872}, {-12, 25.980762113533157`}, {-11, 
+      25.980762113533157`}, {-10.5, 
+     25.11473670974872}, {-10, 25.980762113533157`}, {-9, 
+      25.980762113533157`}, {-9.5, 
+     26.846787517317598`}, {-9, 27.712812921102035`}, {-10, 
+      27.712812921102035`}, {-10.5, 
+     28.578838324886473`}, {-10, 29.444863728670914`}, {-9, 
+      29.444863728670914`}, {-9.5, 
+     30.31088913245535}, {-9, 31.17691453623979}, {-8, 
+      31.17691453623979}, {-7.5, 
+     30.31088913245535}, {-7, 31.17691453623979}, {-6, 
+      31.17691453623979}, {-5.5, 
+     30.31088913245535}, {-6, 29.444863728670914`}, {-5, 
+      29.444863728670914`}, {-4.5, 
+     28.578838324886473`}, {-4, 29.444863728670914`}, {-3, 
+      29.444863728670914`}, {-3.5, 
+     30.31088913245535}, {-3, 31.17691453623979}, {-2, 
+      31.17691453623979}, {-1.5, 
+     30.31088913245535}, {-1, 31.17691453623979}, {
+     0, 31.17691453623979}, {-0.5, 32.042939940024226`}, {
+     0, 32.90896534380867}, {-1, 32.90896534380867}, {-1.5, 
+     33.77499074759311}, {-1, 34.64101615137754}, {
+     0, 34.64101615137754}, {-0.5, 35.50704155516198}, {
+     0, 36.373066958946424`}, {-1, 36.373066958946424`}, {-1.5, 
+     37.23909236273086}, {-2, 36.373066958946424`}, {-3, 
+      36.373066958946424`}, {-3.5, 
+     37.23909236273086}, {-3, 38.1051177665153}, {-4, 
+      38.1051177665153}, {-4.5, 
+     38.97114317029974}, {-4, 39.837168574084174`}, {-3, 
+      39.837168574084174`}, {-3.5, 
+     40.703193977868615`}, {-3, 41.569219381653056`}, {-2, 
+      41.569219381653056`}, {-1.5, 
+     40.703193977868615`}, {-1, 41.569219381653056`}, {
+     0, 41.569219381653056`}, {-0.5, 42.43524478543749}, {
+     0, 43.30127018922193}, {-1, 43.30127018922193}, {-1.5, 
+     44.167295593006365`}, {-1, 45.033320996790806`}, {
+     0, 45.033320996790806`}, {-0.5, 45.89934640057525}, {
+     0, 46.76537180435968}, {-1, 46.76537180435968}, {-1.5, 
+     47.63139720814412}, {-2, 46.76537180435968}, {-3, 
+      46.76537180435968}, {-3.5, 
+     47.63139720814412}, {-3, 48.49742261192856}, {-4, 
+      48.49742261192856}, {-4.5, 
+     49.363448015713}, {-5, 48.49742261192856}, {-6, 
+      48.49742261192856}, {-5.5, 
+     47.63139720814412}, {-6, 46.76537180435968}, {-7, 
+      46.76537180435968}, {-7.5, 
+     47.63139720814412}, {-8, 46.76537180435968}, {-9, 
+      46.76537180435968}, {-9.5, 
+     47.63139720814412}, {-9, 48.49742261192856}, {-10, 
+      48.49742261192856}, {-10.5, 
+     49.363448015713}, {-10, 50.22947341949744}, {-9, 
+      50.22947341949744}, {-9.5, 
+     51.09549882328188}, {-9, 51.96152422706631}, {-10, 
+      51.96152422706631}, {-10.5, 
+     52.827549630850754`}, {-11, 51.96152422706631}, {-12, 
+      51.96152422706631}, {-12.5, 
+     52.827549630850754`}, {-12, 53.693575034635195`}, {-13, 
+      53.693575034635195`}, {-13.5, 
+     54.55960043841963}, {-14, 53.693575034635195`}, {-15, 
+      53.693575034635195`}, {-14.5, 
+     52.827549630850754`}, {-15, 51.96152422706631}, {-16, 
+      51.96152422706631}, {-16.5, 
+     52.827549630850754`}, {-17, 51.96152422706631}, {-18, 
+      51.96152422706631}, {-17.5, 
+     51.09549882328188}, {-18, 50.22947341949744}, {-17, 
+      50.22947341949744}, {-16.5, 
+     49.363448015713}, {-17, 48.49742261192856}, {-18, 
+      48.49742261192856}, {-17.5, 
+     47.63139720814412}, {-18, 46.76537180435968}, {-19, 
+      46.76537180435968}, {-19.5, 
+     47.63139720814412}, {-20, 46.76537180435968}, {-21, 
+      46.76537180435968}, {-21.5, 
+     47.63139720814412}, {-21, 48.49742261192856}, {-22, 
+      48.49742261192856}, {-22.5, 
+     49.363448015713}, {-23, 48.49742261192856}, {-24, 
+      48.49742261192856}, {-23.5, 
+     47.63139720814412}, {-24, 46.76537180435968}, {-25, 
+      46.76537180435968}, {-25.5, 
+     47.63139720814412}, {-26, 46.76537180435968}, {-27, 
+      46.76537180435968}, {-27.5, 
+     47.63139720814412}, {-27, 48.49742261192856}, {-28, 
+      48.49742261192856}, {-28.5, 
+     49.363448015713}, {-28, 50.22947341949744}, {-27, 
+      50.22947341949744}, {-27.5, 
+     51.09549882328188}, {-27, 51.96152422706631}, {-28, 
+      51.96152422706631}, {-28.5, 
+     52.827549630850754`}, {-29, 51.96152422706631}, {-30, 
+      51.96152422706631}, {-30.5, 
+     52.827549630850754`}, {-30, 53.693575034635195`}, {-31, 
+      53.693575034635195`}, {-31.5, 
+     54.55960043841963}, {-31, 55.42562584220407}, {-30, 
+      55.42562584220407}, {-30.5, 
+     56.29165124598851}, {-30, 57.157676649772945`}, {-29, 
+      57.157676649772945`}, {-28.5, 
+     56.29165124598851}, {-28, 57.157676649772945`}, {-27, 
+      57.157676649772945`}, {-27.5, 
+     58.023702053557386`}, {-27, 58.88972745734183}, {-28, 
+      58.88972745734183}, {-28.5, 
+     59.75575286112626}, {-28, 60.6217782649107}, {-27, 
+      60.6217782649107}, {-27.5, 
+     61.48780366869514}, {-27, 62.35382907247958}, {-28, 
+      62.35382907247958}, {-28.5, 
+     63.21985447626402}, {-29, 62.35382907247958}, {-30, 
+      62.35382907247958}, {-30.5, 
+     63.21985447626402}, {-30, 64.08587988004845}, {-31, 
+      64.08587988004845}, {-31.5, 
+     64.9519052838329}, {-32, 64.08587988004845}, {-33, 
+      64.08587988004845}, {-32.5, 
+     63.21985447626402}, {-33, 62.35382907247958}, {-34, 
+      62.35382907247958}, {-34.5, 
+     63.21985447626402}, {-35, 62.35382907247958}, {-36, 
+      62.35382907247958}, {-36.5, 
+     63.21985447626402}, {-36, 64.08587988004845}, {-37, 
+      64.08587988004845}, {-37.5, 
+     64.9519052838329}, {-37, 65.81793068761733}, {-36, 
+      65.81793068761733}, {-36.5, 
+     66.68395609140177}, {-36, 67.54998149518622}, {-37, 
+      67.54998149518622}, {-37.5, 
+     68.41600689897065}, {-38, 67.54998149518622}, {-39, 
+      67.54998149518622}, {-39.5, 
+     68.41600689897065}, {-39, 69.28203230275508}, {-40, 
+      69.28203230275508}, {-40.5, 
+     70.14805770653953}, {-41, 69.28203230275508}, {-42, 
+      69.28203230275508}, {-41.5, 
+     68.41600689897065}, {-42, 67.54998149518622}, {-43, 
+      67.54998149518622}, {-43.5, 
+     68.41600689897065}, {-44, 67.54998149518622}, {-45, 
+      67.54998149518622}, {-44.5, 
+     66.68395609140177}, {-45, 65.81793068761733}, {-44, 
+      65.81793068761733}, {-43.5, 
+     64.9519052838329}, {-44, 64.08587988004845}, {-45, 
+      64.08587988004845}, {-44.5, 
+     63.21985447626402}, {-45, 62.35382907247958}, {-46, 
+      62.35382907247958}, {-46.5, 
+     63.21985447626402}, {-47, 62.35382907247958}, {-48, 
+      62.35382907247958}, {-48.5, 
+     63.21985447626402}, {-48, 64.08587988004845}, {-49, 
+      64.08587988004845}, {-49.5, 
+     64.9519052838329}, {-50, 64.08587988004845}, {-51, 
+      64.08587988004845}, {-50.5, 
+     63.21985447626402}, {-51, 62.35382907247958}, {-52, 
+      62.35382907247958}, {-52.5, 
+     63.21985447626402}, {-53, 62.35382907247958}, {-54, 
+      62.35382907247958}, {-53.5, 
+     61.48780366869514}, {-54, 60.6217782649107}, {-53, 
+      60.6217782649107}, {-52.5, 
+     59.75575286112626}, {-53, 58.88972745734183}, {-54, 
+      58.88972745734183}, {-53.5, 
+     58.023702053557386`}, {-54, 57.157676649772945`}, {-53, 
+      57.157676649772945`}, {-52.5, 
+     56.29165124598851}, {-52, 57.157676649772945`}, {-51, 
+      57.157676649772945`}, {-50.5, 
+     56.29165124598851}, {-51, 55.42562584220407}, {-50, 
+      55.42562584220407}, {-49.5, 
+     54.55960043841963}, {-50, 53.693575034635195`}, {-51, 
+      53.693575034635195`}, {-50.5, 
+     52.827549630850754`}, {-51, 51.96152422706631}, {-52, 
+      51.96152422706631}, {-52.5, 
+     52.827549630850754`}, {-53, 51.96152422706631}, {-54, 
+      51.96152422706631}, {-53.5, 
+     51.09549882328188}, {-54, 50.22947341949744}, {-53, 
+      50.22947341949744}, {-52.5, 
+     49.363448015713}, {-53, 48.49742261192856}, {-54, 
+      48.49742261192856}, {-53.5, 
+     47.63139720814412}, {-54, 46.76537180435968}, {-55, 
+      46.76537180435968}, {-55.5, 
+     47.63139720814412}, {-56, 46.76537180435968}, {-57, 
+      46.76537180435968}, {-57.5, 
+     47.63139720814412}, {-57, 48.49742261192856}, {-58, 
+      48.49742261192856}, {-58.5, 
+     49.363448015713}, {-59, 48.49742261192856}, {-60, 
+      48.49742261192856}, {-59.5, 
+     47.63139720814412}, {-60, 46.76537180435968}, {-61, 
+      46.76537180435968}, {-61.5, 
+     47.63139720814412}, {-62, 46.76537180435968}, {-63, 
+      46.76537180435968}, {-63.5, 
+     47.63139720814412}, {-63, 48.49742261192856}, {-64, 
+      48.49742261192856}, {-64.5, 
+     49.363448015713}, {-64, 50.22947341949744}, {-63, 
+      50.22947341949744}, {-63.5, 
+     51.09549882328188}, {-63, 51.96152422706631}, {-64, 
+      51.96152422706631}, {-64.5, 
+     52.827549630850754`}, {-65, 51.96152422706631}, {-66, 
+      51.96152422706631}, {-66.5, 
+     52.827549630850754`}, {-66, 53.693575034635195`}, {-67, 
+      53.693575034635195`}, {-67.5, 
+     54.55960043841963}, {-68, 53.693575034635195`}, {-69, 
+      53.693575034635195`}, {-68.5, 
+     52.827549630850754`}, {-69, 51.96152422706631}, {-70, 
+      51.96152422706631}, {-70.5, 
+     52.827549630850754`}, {-71, 51.96152422706631}, {-72, 
+      51.96152422706631}, {-71.5, 
+     51.09549882328188}, {-72, 50.22947341949744}, {-71, 
+      50.22947341949744}, {-70.5, 
+     49.363448015713}, {-71, 48.49742261192856}, {-72, 
+      48.49742261192856}, {-71.5, 
+     47.63139720814412}, {-72, 46.76537180435968}, {-73, 
+      46.76537180435968}, {-73.5, 
+     47.63139720814412}, {-74, 46.76537180435968}, {-75, 
+      46.76537180435968}, {-75.5, 
+     47.63139720814412}, {-75, 48.49742261192856}, {-76, 
+      48.49742261192856}, {-76.5, 
+     49.363448015713}, {-77, 48.49742261192856}, {-78, 
+      48.49742261192856}, {-77.5, 
+     47.63139720814412}, {-78, 46.76537180435968}, {-79, 
+      46.76537180435968}, {-79.5, 
+     47.63139720814412}, {-80, 46.76537180435968}, {-81, 
+      46.76537180435968}, {-80.5, 
+     45.89934640057525}, {-81, 45.033320996790806`}, {-80, 
+      45.033320996790806`}, {-79.5, 
+     44.167295593006365`}, {-80, 43.30127018922193}, {-81, 
+      43.30127018922193}, {-80.5, 
+     42.43524478543749}, {-81, 41.569219381653056`}, {-80, 
+      41.569219381653056`}, {-79.5, 
+     40.703193977868615`}, {-79, 41.569219381653056`}, {-78, 
+      41.569219381653056`}, {-77.5, 
+     40.703193977868615`}, {-78, 39.837168574084174`}, {-77, 
+      39.837168574084174`}, {-76.5, 
+     38.97114317029974}, {-77, 38.1051177665153}, {-78, 
+      38.1051177665153}, {-77.5, 
+     37.23909236273086}, {-78, 36.373066958946424`}, {-79, 
+      36.373066958946424`}, {-79.5, 
+     37.23909236273086}, {-80, 36.373066958946424`}, {-81, 
+      36.373066958946424`}, {-80.5, 
+     35.50704155516198}, {-81, 34.64101615137754}, {-80, 
+      34.64101615137754}, {-79.5, 
+     33.77499074759311}, {-80, 32.90896534380867}, {-81, 
+      32.90896534380867}, {-80.5, 
+     32.042939940024226`}, {-81, 31.17691453623979}, {-80, 
+      31.17691453623979}, {-79.5, 
+     30.31088913245535}, {-79, 31.17691453623979}, {-78, 
+      31.17691453623979}, {-77.5, 
+     30.31088913245535}, {-78, 29.444863728670914`}, {-77, 
+      29.444863728670914`}, {-76.5, 
+     28.578838324886473`}, {-76, 29.444863728670914`}, {-75, 
+      29.444863728670914`}, {-75.5, 
+     30.31088913245535}, {-75, 31.17691453623979}, {-74, 
+      31.17691453623979}, {-73.5, 
+     30.31088913245535}, {-73, 31.17691453623979}, {-72, 
+      31.17691453623979}, {-71.5, 
+     30.31088913245535}, {-72, 29.444863728670914`}, {-71, 
+      29.444863728670914`}, {-70.5, 
+     28.578838324886473`}, {-71, 27.712812921102035`}, {-72, 
+      27.712812921102035`}, {-71.5, 
+     26.846787517317598`}, {-72, 25.980762113533157`}, {-71, 
+      25.980762113533157`}, {-70.5, 
+     25.11473670974872}, {-70, 25.980762113533157`}, {-69, 
+      25.980762113533157`}, {-68.5, 
+     25.11473670974872}, {-69, 24.24871130596428}, {-68, 
+      24.24871130596428}, {-67.5, 
+     23.38268590217984}, {-68, 22.516660498395403`}, {-69, 
+      22.516660498395403`}, {-68.5, 
+     21.650635094610966`}, {-69, 20.784609690826528`}, {-70, 
+      20.784609690826528`}, {-70.5, 
+     21.650635094610966`}, {-71, 20.784609690826528`}, {-72, 
+      20.784609690826528`}, {-71.5, 
+     19.918584287042087`}, {-72, 19.05255888325765}, {-71, 
+      19.05255888325765}, {-70.5, 
+     18.186533479473212`}, {-71, 17.32050807568877}, {-72, 
+      17.32050807568877}, {-71.5, 
+     16.454482671904334`}, {-72, 15.588457268119894`}, {-73, 
+      15.588457268119894`}, {-73.5, 
+     16.454482671904334`}, {-74, 15.588457268119894`}, {-75, 
+      15.588457268119894`}, {-75.5, 
+     16.454482671904334`}, {-75, 17.32050807568877}, {-76, 
+      17.32050807568877}, {-76.5, 
+     18.186533479473212`}, {-77, 17.32050807568877}, {-78, 
+      17.32050807568877}, {-77.5, 
+     16.454482671904334`}, {-78, 15.588457268119894`}, {-79, 
+      15.588457268119894`}, {-79.5, 
+     16.454482671904334`}, {-80, 15.588457268119894`}, {-81, 
+      15.588457268119894`}, {-80.5, 
+     14.722431864335457`}, {-81, 13.856406460551018`}, {-80, 
+      13.856406460551018`}, {-79.5, 
+     12.990381056766578`}, {-80, 12.12435565298214}, {-81, 
+      12.12435565298214}, {-80.5, 
+     11.258330249197702`}, {-81, 10.392304845413264`}, {-80, 
+      10.392304845413264`}, {-79.5, 
+     9.526279441628825}, {-79, 10.392304845413264`}, {-78, 
+      10.392304845413264`}, {-77.5, 
+     9.526279441628825}, {-78, 8.660254037844386}, {-77, 
+      8.660254037844386}, {-76.5, 
+     7.794228634059947}, {-77, 6.928203230275509}, {-78, 
+      6.928203230275509}, {-77.5, 
+     6.06217782649107}, {-78, 5.196152422706632}, {-79, 
+      5.196152422706632}, {-79.5, 
+     6.06217782649107}, {-80, 5.196152422706632}, {-81, 
+      5.196152422706632}, {-80.5, 
+     4.330127018922193}, {-81, 3.4641016151377544`}, {-80, 
+      3.4641016151377544`}, {-79.5, 
+     2.598076211353316}, {-80, 1.7320508075688772`}, {-81, 
+      1.7320508075688772`}, {-80.5, 0.8660254037844386}, {-81, 0}, {-80, 
+     0}, {-79.5, -0.8660254037844386}, {-79, 0}, {-78, 
+     0}, {-77.5, -0.8660254037844386}, {-78, -1.7320508075688772`}, {-77, \
+-1.7320508075688772`}, {-76.5, -2.598076211353316}, {-76, \
+-1.7320508075688772`}, {-75, -1.7320508075688772`}, {-75.5, \
+-0.8660254037844386}, {-75, 0}, {-74, 0}, {-73.5, -0.8660254037844386}, {-73, 
+     0}, {-72, 
+     0}, {-71.5, -0.8660254037844386}, {-72, -1.7320508075688772`}, {-71, \
+-1.7320508075688772`}, {-70.5, -2.598076211353316}, {-71, \
+-3.4641016151377544`}, {-72, -3.4641016151377544`}, {-71.5, \
+-4.330127018922193}, {-72, -5.196152422706632}, {-71, -5.196152422706632}, \
+{-70.5, -6.06217782649107}, {-70, -5.196152422706632}, {-69, \
+-5.196152422706632}, {-68.5, -6.06217782649107}, {-69, -6.928203230275509}, \
+{-68, -6.928203230275509}, {-67.5, -7.794228634059947}, {-67, \
+-6.928203230275509}, {-66, -6.928203230275509}, {-66.5, -6.06217782649107}, \
+{-66, -5.196152422706632}, {-65, -5.196152422706632}, {-64.5, \
+-6.06217782649107}, {-64, -5.196152422706632}, {-63, -5.196152422706632}, \
+{-63.5, -4.330127018922193}, {-63, -3.4641016151377544`}, {-64, \
+-3.4641016151377544`}, {-64.5, -2.598076211353316}, {-64, \
+-1.7320508075688772`}, {-63, -1.7320508075688772`}, {-63.5, \
+-0.8660254037844386}, {-63, 0}, {-62, 0}, {-61.5, -0.8660254037844386}, {-61, 
+     0}, {-60, 
+     0}, {-59.5, -0.8660254037844386}, {-60, -1.7320508075688772`}, {-59, \
+-1.7320508075688772`}, {-58.5, -2.598076211353316}, {-58, \
+-1.7320508075688772`}, {-57, -1.7320508075688772`}, {-57.5, \
+-0.8660254037844386}, {-57, 0}, {-56, 0}, {-55.5, -0.8660254037844386}, {-55, 
+     0}, {-54, 
+     0}, {-53.5, -0.8660254037844386}, {-54, -1.7320508075688772`}, {-53, \
+-1.7320508075688772`}, {-52.5, -2.598076211353316}, {-53, \
+-3.4641016151377544`}, {-54, -3.4641016151377544`}, {-53.5, \
+-4.330127018922193}, {-54, -5.196152422706632}, {-53, -5.196152422706632}, \
+{-52.5, -6.06217782649107}, {-52, -5.196152422706632}, {-51, \
+-5.196152422706632}, {-50.5, -6.06217782649107}, {-51, -6.928203230275509}, \
+{-50, -6.928203230275509}, {-49.5, -7.794228634059947}, {-50, \
+-8.660254037844386}, {-51, -8.660254037844386}, {-50.5, -9.526279441628825}, \
+{-51, -10.392304845413264`}, {-52, -10.392304845413264`}, {-52.5, \
+-9.526279441628825}, {-53, -10.392304845413264`}, {-54, \
+-10.392304845413264`}, {-53.5, -11.258330249197702`}, {-54, \
+-12.12435565298214}, {-53, -12.12435565298214}, {-52.5, \
+-12.990381056766578`}, {-53, -13.856406460551018`}, {-54, \
+-13.856406460551018`}, {-53.5, -14.722431864335457`}, {-54, \
+-15.588457268119894`}, {-53, -15.588457268119894`}, {-52.5, \
+-16.454482671904334`}, {-52, -15.588457268119894`}, {-51, \
+-15.588457268119894`}, {-50.5, -16.454482671904334`}, {-51, \
+-17.32050807568877}, {-50, -17.32050807568877}, {-49.5, \
+-18.186533479473212`}, {-49, -17.32050807568877}, {-48, -17.32050807568877}, \
+{-48.5, -16.454482671904334`}, {-48, -15.588457268119894`}, {-47, \
+-15.588457268119894`}, {-46.5, -16.454482671904334`}, {-46, \
+-15.588457268119894`}, {-45, -15.588457268119894`}, {-44.5, \
+-16.454482671904334`}, {-45, -17.32050807568877}, {-44, -17.32050807568877}, \
+{-43.5, -18.186533479473212`}, {-44, -19.05255888325765}, {-45, \
+-19.05255888325765}, {-44.5, -19.918584287042087`}, {-45, \
+-20.784609690826528`}, {-44, -20.784609690826528`}, {-43.5, \
+-21.650635094610966`}, {-43, -20.784609690826528`}, {-42, \
+-20.784609690826528`}, {-41.5, -21.650635094610966`}, {-42, \
+-22.516660498395403`}, {-41, -22.516660498395403`}, {-40.5, \
+-23.38268590217984}, {-40, -22.516660498395403`}, {-39, \
+-22.516660498395403`}, {-39.5, -21.650635094610966`}, {-39, \
+-20.784609690826528`}, {-38, -20.784609690826528`}, {-37.5, \
+-21.650635094610966`}, {-37, -20.784609690826528`}, {-36, \
+-20.784609690826528`}, {-36.5, -19.918584287042087`}, {-36, \
+-19.05255888325765}, {-37, -19.05255888325765}, {-37.5, \
+-18.186533479473212`}, {-37, -17.32050807568877}, {-36, -17.32050807568877}, \
+{-36.5, -16.454482671904334`}, {-36, -15.588457268119894`}, {-35, \
+-15.588457268119894`}, {-34.5, -16.454482671904334`}, {-34, \
+-15.588457268119894`}, {-33, -15.588457268119894`}, {-32.5, \
+-16.454482671904334`}, {-33, -17.32050807568877}, {-32, -17.32050807568877}, \
+{-31.5, -18.186533479473212`}, {-31, -17.32050807568877}, {-30, \
+-17.32050807568877}, {-30.5, -16.454482671904334`}, {-30, \
+-15.588457268119894`}, {-29, -15.588457268119894`}, {-28.5, \
+-16.454482671904334`}, {-28, -15.588457268119894`}, {-27, \
+-15.588457268119894`}, {-27.5, -14.722431864335457`}, {-27, \
+-13.856406460551018`}, {-28, -13.856406460551018`}, {-28.5, \
+-12.990381056766578`}, {-28, -12.12435565298214}, {-27, -12.12435565298214}, \
+{-27.5, -11.258330249197702`}, {-27, -10.392304845413264`}, {-28, \
+-10.392304845413264`}, {-28.5, -9.526279441628825}, {-29, \
+-10.392304845413264`}, {-30, -10.392304845413264`}, {-30.5, \
+-9.526279441628825}, {-30, -8.660254037844386}, {-31, -8.660254037844386}, \
+{-31.5, -7.794228634059947}, {-31, -6.928203230275509}, {-30, \
+-6.928203230275509}, {-30.5, -6.06217782649107}, {-30, -5.196152422706632}, \
+{-29, -5.196152422706632}, {-28.5, -6.06217782649107}, {-28, \
+-5.196152422706632}, {-27, -5.196152422706632}, {-27.5, -4.330127018922193}, \
+{-27, -3.4641016151377544`}, {-28, -3.4641016151377544`}, {-28.5, \
+-2.598076211353316}, {-28, -1.7320508075688772`}, {-27, \
+-1.7320508075688772`}, {-27.5, -0.8660254037844386}, {-27, 0}, {-26, 
+     0}, {-25.5, -0.8660254037844386}, {-25, 0}, {-24, 
+     0}, {-23.5, -0.8660254037844386}, {-24, -1.7320508075688772`}, {-23, \
+-1.7320508075688772`}, {-22.5, -2.598076211353316}, {-22, \
+-1.7320508075688772`}, {-21, -1.7320508075688772`}, {-21.5, \
+-0.8660254037844386}, {-21, 0}, {-20, 0}, {-19.5, -0.8660254037844386}, {-19, 
+     0}, {-18, 
+     0}, {-17.5, -0.8660254037844386}, {-18, -1.7320508075688772`}, {-17, \
+-1.7320508075688772`}, {-16.5, -2.598076211353316}, {-17, \
+-3.4641016151377544`}, {-18, -3.4641016151377544`}, {-17.5, \
+-4.330127018922193}, {-18, -5.196152422706632}, {-17, -5.196152422706632}, \
+{-16.5, -6.06217782649107}, {-16, -5.196152422706632}, {-15, \
+-5.196152422706632}, {-14.5, -6.06217782649107}, {-15, -6.928203230275509}, \
+{-14, -6.928203230275509}, {-13.5, -7.794228634059947}, {-13, \
+-6.928203230275509}, {-12, -6.928203230275509}, {-12.5, -6.06217782649107}, \
+{-12, -5.196152422706632}, {-11, -5.196152422706632}, {-10.5, \
+-6.06217782649107}, {-10, -5.196152422706632}, {-9, -5.196152422706632}, \
+{-9.5, -4.330127018922193}, {-9, -3.4641016151377544`}, {-10, \
+-3.4641016151377544`}, {-10.5, -2.598076211353316}, {-10, \
+-1.7320508075688772`}, {-9, -1.7320508075688772`}, {-9.5, \
+-0.8660254037844386}, {-9, 0}, {-8, 0}, {-7.5, -0.8660254037844386}, {-7, 
+     0}, {-6, 0}, {-5.5, -0.8660254037844386}, {-6, -1.7320508075688772`}, \
+{-5, -1.7320508075688772`}, {-4.5, -2.598076211353316}, {-4, \
+-1.7320508075688772`}, {-3, -1.7320508075688772`}, {-3.5, \
+-0.8660254037844386}, {-3, 0}, {-2, 0}, {-1.5, -0.8660254037844386}, {-1, 
+     0}, {0, 0}, {-0.5, 0.8660254037844386}, {
+     0, 1.7320508075688772`}, {-1, 1.7320508075688772`}, {-1.5, 
+     2.598076211353316}, {-1, 3.4641016151377544`}, {
+     0, 3.4641016151377544`}, {-0.5, 4.330127018922193}, {
+     0, 5.196152422706632}, {-1, 5.196152422706632}, {-1.5, 
+     6.06217782649107}, {-2, 5.196152422706632}, {-3, 
+      5.196152422706632}, {-3.5, 
+     6.06217782649107}, {-3, 6.928203230275509}, {-4, 
+      6.928203230275509}, {-4.5, 
+     7.794228634059947}, {-4, 8.660254037844386}, {-3, 
+      8.660254037844386}, {-3.5, 
+     9.526279441628825}, {-3, 10.392304845413264`}, {-2, 
+      10.392304845413264`}, {-1.5, 
+     9.526279441628825}, {-1, 10.392304845413264`}, {
+     0, 10.392304845413264`}, {-0.5, 11.258330249197702`}, {
+     0, 12.12435565298214}, {-1, 12.12435565298214}, {-1.5, 
+     12.990381056766578`}, {-1, 13.856406460551018`}, {
+     0, 13.856406460551018`}, {-0.5, 14.722431864335457`}, {
+     0, 15.588457268119894`}, {-1, 15.588457268119894`}, {-1.5, 
+     16.454482671904334`}, {-2, 15.588457268119894`}, {-3, 
+      15.588457268119894`}, {-3.5, 
+     16.454482671904334`}, {-3, 17.32050807568877}, {-4, 
+      17.32050807568877}, {-4.5, 
+     18.186533479473212`}, {-5, 17.32050807568877}, {-6, 
+      17.32050807568877}, {-5.5, 
+     16.454482671904334`}, {-6, 15.588457268119894`}, {-7, 
+      15.588457268119894`}, {-7.5, 
+     16.454482671904334`}, {-8, 15.588457268119894`}, {-9, 
+      15.588457268119894`}, {-9.5, 
+     16.454482671904334`}, {-9, 17.32050807568877}, {-10, 
+      17.32050807568877}, {-10.5, 
+     18.186533479473212`}, {-10, 19.05255888325765}, {-9, 
+      19.05255888325765}, {-9.5, 
+     19.918584287042087`}, {-9, 20.784609690826528`}, {-10, 
+      20.784609690826528`}, {-10.5, 
+     21.650635094610966`}, {-11, 20.784609690826528`}, {-12, 
+      20.784609690826528`}, {-12.5, 
+     21.650635094610966`}, {-12, 22.516660498395403`}, {-13, 
+      22.516660498395403`}, {-13.5, 
+     23.38268590217984}, {-13, 24.24871130596428}, {-12, 
+      24.24871130596428}, {-12.5, 
+     25.11473670974872}, {-12, 25.980762113533157`}, {-11, 
+      25.980762113533157`}, {-10.5, 
+     25.11473670974872}, {-10, 25.980762113533157`}, {-9, 
+      25.980762113533157`}, {-9.5, 
+     26.846787517317598`}, {-9, 27.712812921102035`}, {-10, 
+      27.712812921102035`}, {-10.5, 
+     28.578838324886473`}, {-10, 29.444863728670914`}, {-9, 
+      29.444863728670914`}, {-9.5, 
+     30.31088913245535}, {-9, 31.17691453623979}, {-8, 
+      31.17691453623979}, {-7.5, 
+     30.31088913245535}, {-7, 31.17691453623979}, {-6, 
+      31.17691453623979}, {-5.5, 
+     30.31088913245535}, {-6, 29.444863728670914`}, {-5, 
+      29.444863728670914`}, {-4.5, 
+     28.578838324886473`}, {-4, 29.444863728670914`}, {-3, 
+      29.444863728670914`}, {-3.5, 
+     30.31088913245535}, {-3, 31.17691453623979}, {-2, 
+      31.17691453623979}, {-1.5, 
+     30.31088913245535}, {-1, 31.17691453623979}, {
+     0, 31.17691453623979}, {-0.5, 32.042939940024226`}, {
+     0, 32.90896534380867}, {-1, 32.90896534380867}, {-1.5, 
+     33.77499074759311}, {-1, 34.64101615137754}, {
+     0, 34.64101615137754}, {-0.5, 35.50704155516198}, {
+     0, 36.373066958946424`}, {-1, 36.373066958946424`}, {-1.5, 
+     37.23909236273086}, {-2, 36.373066958946424`}, {-3, 
+      36.373066958946424`}, {-3.5, 
+     37.23909236273086}, {-3, 38.1051177665153}, {-4, 
+      38.1051177665153}, {-4.5, 
+     38.97114317029974}, {-4, 39.837168574084174`}, {-3, 
+      39.837168574084174`}, {-3.5, 
+     40.703193977868615`}, {-3, 41.569219381653056`}, {-2, 
+      41.569219381653056`}, {-1.5, 
+     40.703193977868615`}, {-1, 41.569219381653056`}, {
+     0, 41.569219381653056`}, {-0.5, 42.43524478543749}, {
+     0, 43.30127018922193}, {-1, 43.30127018922193}, {-1.5, 
+     44.167295593006365`}, {-1, 45.033320996790806`}, {
+     0, 45.033320996790806`}, {-0.5, 45.89934640057525}, {
+     0, 46.76537180435968}, {-1, 46.76537180435968}, {-1.5, 
+     47.63139720814412}, {-2, 46.76537180435968}, {-3, 
+      46.76537180435968}, {-3.5, 
+     47.63139720814412}, {-3, 48.49742261192856}, {-4, 
+      48.49742261192856}, {-4.5, 
+     49.363448015713}, {-5, 48.49742261192856}, {-6, 
+      48.49742261192856}, {-5.5, 
+     47.63139720814412}, {-6, 46.76537180435968}, {-7, 
+      46.76537180435968}, {-7.5, 
+     47.63139720814412}, {-8, 46.76537180435968}, {-9, 
+      46.76537180435968}, {-9.5, 
+     47.63139720814412}, {-9, 48.49742261192856}, {-10, 
+      48.49742261192856}, {-10.5, 
+     49.363448015713}, {-10, 50.22947341949744}, {-9, 
+      50.22947341949744}, {-9.5, 
+     51.09549882328188}, {-9, 51.96152422706631}, {-10, 
+      51.96152422706631}, {-10.5, 
+     52.827549630850754`}, {-11, 51.96152422706631}, {-12, 
+      51.96152422706631}, {-12.5, 
+     52.827549630850754`}, {-12, 53.693575034635195`}, {-13, 
+      53.693575034635195`}, {-13.5, 
+     54.55960043841963}, {-14, 53.693575034635195`}, {-15, 
+      53.693575034635195`}, {-14.5, 
+     52.827549630850754`}, {-15, 51.96152422706631}, {-16, 
+      51.96152422706631}, {-16.5, 
+     52.827549630850754`}, {-17, 51.96152422706631}, {-18, 
+      51.96152422706631}, {-17.5, 
+     51.09549882328188}, {-18, 50.22947341949744}, {-17, 
+      50.22947341949744}, {-16.5, 
+     49.363448015713}, {-17, 48.49742261192856}, {-18, 
+      48.49742261192856}, {-17.5, 
+     47.63139720814412}, {-18, 46.76537180435968}, {-19, 
+      46.76537180435968}, {-19.5, 
+     47.63139720814412}, {-20, 46.76537180435968}, {-21, 
+      46.76537180435968}, {-21.5, 
+     47.63139720814412}, {-21, 48.49742261192856}, {-22, 
+      48.49742261192856}, {-22.5, 
+     49.363448015713}, {-23, 48.49742261192856}, {-24, 
+      48.49742261192856}, {-23.5, 
+     47.63139720814412}, {-24, 46.76537180435968}, {-25, 
+      46.76537180435968}, {-25.5, 
+     47.63139720814412}, {-26, 46.76537180435968}, {-27, 
+      46.76537180435968}, {-27.5, 
+     47.63139720814412}, {-27, 48.49742261192856}, {-28, 
+      48.49742261192856}, {-28.5, 
+     49.363448015713}, {-28, 50.22947341949744}, {-27, 
+      50.22947341949744}, {-27.5, 
+     51.09549882328188}, {-27, 51.96152422706631}, {-28, 
+      51.96152422706631}, {-28.5, 
+     52.827549630850754`}, {-29, 51.96152422706631}, {-30, 
+      51.96152422706631}, {-30.5, 
+     52.827549630850754`}, {-30, 53.693575034635195`}, {-31, 
+      53.693575034635195`}, {-31.5, 
+     54.55960043841963}, {-31, 55.42562584220407}, {-30, 
+      55.42562584220407}, {-30.5, 
+     56.29165124598851}, {-30, 57.157676649772945`}, {-29, 
+      57.157676649772945`}, {-28.5, 
+     56.29165124598851}, {-28, 57.157676649772945`}, {-27, 
+      57.157676649772945`}, {-27.5, 
+     58.023702053557386`}, {-27, 58.88972745734183}, {-28, 
+      58.88972745734183}, {-28.5, 
+     59.75575286112626}, {-28, 60.6217782649107}, {-27, 
+      60.6217782649107}, {-27.5, 
+     61.48780366869514}, {-27, 62.35382907247958}, {-28, 
+      62.35382907247958}, {-28.5, 
+     63.21985447626402}, {-29, 62.35382907247958}, {-30, 
+      62.35382907247958}, {-30.5, 
+     63.21985447626402}, {-30, 64.08587988004845}, {-31, 
+      64.08587988004845}, {-31.5, 
+     64.9519052838329}, {-32, 64.08587988004845}, {-33, 
+      64.08587988004845}, {-32.5, 
+     63.21985447626402}, {-33, 62.35382907247958}, {-34, 
+      62.35382907247958}, {-34.5, 
+     63.21985447626402}, {-35, 62.35382907247958}, {-36, 
+      62.35382907247958}, {-36.5, 
+     63.21985447626402}, {-36, 64.08587988004845}, {-37, 
+      64.08587988004845}, {-37.5, 
+     64.9519052838329}, {-37, 65.81793068761733}, {-36, 
+      65.81793068761733}, {-36.5, 
+     66.68395609140177}, {-36, 67.54998149518622}, {-37, 
+      67.54998149518622}, {-37.5, 
+     68.41600689897065}, {-38, 67.54998149518622}, {-39, 
+      67.54998149518622}, {-39.5, 
+     68.41600689897065}, {-39, 69.28203230275508}, {-40, 
+      69.28203230275508}, {-40.5, 70.14805770653953}}]]]], "Output",
+ CellChangeTimes->{
+  3.744692394928136*^9, {3.7447617020694413`*^9, 
+   3.7447617123029575`*^9}},ExpressionUUID->"79a5592e-3cdb-4d98-a06c-\
+0fe4ad18cb0e"]
+}, Open  ]]
+},
+WindowSize->{775, 513},
+WindowMargins->{{244, Automatic}, {Automatic, 54}},
+FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (2017\:5e745\:670816\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 220, 5, 47, "Input", "ExpressionUUID" -> \
+"06930918-12e5-4a23-a340-735e19f0c784"],
+Cell[803, 29, 2064, 36, 129, "Output", "ExpressionUUID" -> \
+"15737f16-1595-456a-a115-b8d01c7c0e35"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2904, 70, 922, 25, 105, "Input", "ExpressionUUID" -> \
+"98deeba6-2f14-479d-88b8-37e11781cd55"],
+Cell[3829, 97, 16490, 268, 129, "Output", "ExpressionUUID" -> \
+"b93c2339-d280-4892-9eb2-625d5a29ec00"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20356, 370, 754, 22, 47, "Input", "ExpressionUUID" -> \
+"7324927b-1a54-4c26-945b-b772642ed4f5"],
+Cell[21113, 394, 72360, 1281, 428, "Output", "ExpressionUUID" -> \
+"79a5592e-3cdb-4d98-a06c-0fe4ad18cb0e"]
+}, Open  ]]
+}
+]
+*)
+
