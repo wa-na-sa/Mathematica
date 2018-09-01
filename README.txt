@@ -1,1 +1,1 @@
-一些Mathematica的小实例。
+一些Mathematica小实例。
