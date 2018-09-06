@@ -1,0 +1,106 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3518,         98]
+NotebookOptionsPosition[      3202,         83]
+NotebookOutlinePosition[      3558,         99]
+CellTagsIndexPosition[      3515,         96]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Line", "/@", 
+   RowBox[{"Nest", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Join", "@@", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"Table", "[", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{
+               RowBox[{
+                RowBox[{"RotationTransform", "[", 
+                 RowBox[{
+                  RowBox[{
+                   RowBox[{"(", 
+                    RowBox[{"135", "-", 
+                    RowBox[{"90", "i"}]}], ")"}], "\[Degree]"}], ",", 
+                  RowBox[{"#", "[", 
+                   RowBox[{"[", "i", "]"}], "]"}]}], "]"}], ".", 
+                RowBox[{"ScalingTransform", "[", 
+                 RowBox[{
+                  RowBox[{"{", 
+                   RowBox[{
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"45", "\[Degree]"}], "]"}], ",", 
+                    RowBox[{"Cos", "[", 
+                    RowBox[{"45", "\[Degree]"}], "]"}]}], "}"}], ",", 
+                  RowBox[{"#", "[", 
+                   RowBox[{"[", "i", "]"}], "]"}]}], "]"}]}], "&"}], "[", 
+              "line", "]"}], ")"}], "@", "line"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"i", ",", "1", ",", "2"}], "}"}]}], "]"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"line", ",", "#"}], "}"}]}], "]"}]}], "&"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"AnglePath", "[", 
+       RowBox[{"{", "0", "}"}], "]"}], "}"}], ",", "4"}], "]"}]}], 
+  "]"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"(*", 
+   RowBox[{
+   "\:5f53\:8fed\:4ee3\:523010\:6b21\:65f6", "\:ff0c", 
+    "\:7b14\:8bb0\:672c\:6587\:4ef6\:5df2\:7ecf\:8fbe\:5230486MB", "\:ff0c", 
+    "\:4e0d\:77e5\:9053\:4ec0\:4e48\:6837\:7684\:5b58\:50a8\:65b9\:5f0f\:4f1a\
+\:9020\:6210\:5982\:6b64\:5de8\:5927\:7684\:4f53\:79ef", "\:3002"}], 
+   "*)"}]}]}], "Input",
+ CellChangeTimes->{{3.7449491637294145`*^9, 3.7449492683024445`*^9}, {
+   3.7449494286496224`*^9, 3.7449495882174015`*^9}, {3.744949890440694*^9, 
+   3.744949930553337*^9}, {3.7449499989560328`*^9, 3.7449500047760015`*^9}, {
+   3.744958185208953*^9, 3.744958255948247*^9}, {3.744958330493397*^9, 
+   3.7449583681953344`*^9}, {3.7449585403485303`*^9, 3.7449585791880302`*^9}, 
+   3.744958799674471*^9, {3.7451263463485785`*^9, 3.7451263466123476`*^9}, {
+   3.7451264602619886`*^9, 3.7451265276423035`*^9}, {3.7451265660812817`*^9, 
+   3.7451266235725846`*^9}, {3.7451269557518735`*^9, 
+   3.7451269898027396`*^9}, {3.7451270205520616`*^9, 
+   3.745127020757549*^9}},ExpressionUUID->"0e9dd5fe-7a89-4e71-adfe-\
+58ba4f55911c"]
+},
+WindowSize->{1264, 637},
+WindowMargins->{{-8, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.1 for Microsoft Windows (64-bit) (2017\:5e745\:670816\
+\:65e5)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2640, 61, 142, "Input", "ExpressionUUID" -> \
+"0e9dd5fe-7a89-4e71-adfe-58ba4f55911c"]
+}
+]
+*)
+
